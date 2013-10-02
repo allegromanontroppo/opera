@@ -1,0 +1,3 @@
+%nav.breadcrumbs
+  - breadcrumb.each do |text, url|
+    = link_to text, url, :class => (url.blank? and 'current')

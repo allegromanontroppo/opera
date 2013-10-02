@@ -1,0 +1,43 @@
+.home
+
+  %section.row
+    .columns
+      %h1 Access all Arias
+      %h2.subheader A beginner's guide to the finest tunes in opera
+      
+  %section#billboard
+  %aside#headliners.callouts
+          
+- content_for :javascripts do
+    
+  %script#billboard-template{type: "text/x-handlebars-template"}
+    .row
+      .columns
+        <img src="/images/billboards/{{ image_src }}">
+    {{#if caption}} 
+    .caption
+      .row
+        .columns
+          %h4 {{ caption }}
+    {{/if}}
+
+  %script#callout-template{type: "text/x-handlebars-template"}
+    {{#each this}}
+    .row
+      .columns
+        %ul.small-block-grid-2.large-block-grid-4
+          {{#each this}}
+          %li
+            <a href="{{ url }}">
+            .panel.radius
+              %h5.subheader {{ name }}
+              <img src="{{ image_src }}">
+            </a>
+          {{/each}}
+    {{/each}}
+    
+    
+  :javascript
+    billboards = #{ data.billboards.to_json };
+    headliners = #{ headliners_json };
+        

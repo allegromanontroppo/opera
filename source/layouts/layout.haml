@@ -1,0 +1,82 @@
+!!! 5
+/[if lt IE 7 ] <html class="ie6" lang="en">
+/[if IE 7 ]    <html class="ie7" lang="en">
+/[if IE 8 ]    <html class="ie8" lang="en">
+/[if IE 9 ]    <html class="ie9" lang="en">
+/[if (gt IE 9)|!(IE)] <!--> <html lang="en">
+
+%head
+  %meta{ :charset => "utf-8" }
+
+  -# Set the viewport width to device width for mobile
+  %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }
+
+  %title= content_for?(:title) ? yield_content(:title) : title
+
+  = stylesheet_link_tag "application", media: "all"
+  = javascript_include_tag "vendor/custom.modernizr"
+
+%body
+  .contain-to-grid
+    %nav.top-bar.fixed
+      %ul.title-area
+        / Title Area
+        %li.name
+          %h1
+            %a{:href => '/'} Access All Arias
+        %li.toggle-topbar.menu-icon
+          %a{:href => "#"}
+            %span menu
+      %section.top-bar-section
+        / Right Nav Section
+        %ul.right
+          %li.divider
+          %li.has-dropdown
+            %a{:href => '#' } Composers
+            %ul.dropdown
+              - composers.each do |composer|
+                %li= link_to_composer(composer)
+          %li.divider
+          %li.has-dropdown
+            %a{:href => "#"} Operas
+            %ul.dropdown
+              - operas.each do |opera|
+                %li= link_to_opera(opera)
+          %li.divider
+          %li.has-dropdown
+            %a{:href => "#"} Arias
+            %ul.dropdown
+              - arias.each do |aria|
+                %li= link_to_aria(aria)
+
+  .main= yield
+    
+  %footer
+    %nav
+      .row
+        .column.large-4
+          %h3 Composers
+          %ul.no-bullet
+            - composers.each do |composer|
+              %li= link_to_composer(composer)
+              
+          .show-for-small
+            %hr
+
+        .column.large-4
+          %h3 Operas
+          %ul.no-bullet
+            - operas.each do |opera|
+              %li= link_to_opera(opera)  
+              
+          .show-for-small
+            %hr  
+
+        .column.large-4
+          %h3 Arias
+          %ul.no-bullet
+            - arias.each do |aria|
+              %li= link_to_aria(aria)
+
+  = javascript_include_tag "application"
+  = yield_content :javascripts

@@ -1,0 +1,33 @@
+- content_for(:title) { title(composer, opera) }
+
+.row.breadcrumb_row
+  .columns
+    = breadcrumb(composer, opera)
+    
+%article
+    
+  %section.row
+    .columns
+      %h1
+        = opera.name 
+      %h2.subheader
+        By 
+        = link_to_composer(composer)
+      %hr
+
+  %section.row
+    .large-8.push-3.columns
+
+      :markdown
+        #{ opera.synopsis }
+
+      - [*opera.videos].each do |video|  
+        = partial 'partials/video', :locals => { :video => video }
+
+    .large-3.pull-9.columns.illustration= image_tag opera.image_src
+
+%aside.callouts
+  .row
+    .columns
+      %h3 Arias in #{ opera.name }
+  = render_callouts composer, opera, arias(opera)

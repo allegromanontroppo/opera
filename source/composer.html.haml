@@ -1,0 +1,24 @@
+- content_for(:title) { title(composer) }
+
+%article
+
+  %section.row
+    .columns
+      %h1= composer.name 
+      %hr
+    
+  %section.row      
+    .large-8.push-3.columns
+      :markdown
+        #{ composer.bio }
+  
+    .large-3.pull-9.columns.illustration= image_tag composer.image_src, :class => 'radius'
+  
+%aside.callouts
+  .row
+    .columns
+      %h3 #{ composer.surname }'s operas
+  = render_callouts composer, operas(composer)
+      
+
+                

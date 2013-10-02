@@ -1,0 +1,6 @@
+.column{ :class => ( 'large-6' if has_english ) }
+  - if is_english
+    %h5.show-for-small English 
+             
+  :markdown
+    #{ text }

@@ -1,0 +1,100 @@
+
+form.custom .custom.checkbox{
+  font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+.main{
+  
+  section{
+    margin-top: emCalc(30px);
+    margin-bottom: emCalc(30px);
+  }
+
+  aside{
+    padding-top: emCalc(40px);
+    padding-bottom: emCalc(30px);
+  }
+  
+  h1 + h2{
+    margin-top: 0;
+  }
+}
+
+.breadcrumb_row{
+  margin-top: $topbar-margin-bottom * 0.7;
+  
+  .breadcrumbs{
+    margin-bottom: 0;
+  }
+}
+
+.home{
+
+  text-align: center;
+  
+  h1{
+    font-size: 5em;
+  }
+}
+  
+.home h1, article h1{
+  margin-bottom: 0;
+}
+
+#billboard{
+  
+  $color: $turandot_cream;
+  
+  margin-bottom: 0;
+  position: relative;
+    
+  .caption{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $color;
+    opacity: 0.6;
+    
+    h4{
+      text-align: center;
+      margin-bottom: 0;
+      padding-top: emCalc(4px);
+      padding-bottom: emCalc(4px);
+      opacity: 1;
+    }
+  }
+}
+
+.callouts{
+  background: $aida_yellow;
+  
+  li{
+    text-align: center;
+  }
+}
+
+#libretto{
+  background: $turandot_cream;
+  margin-bottom: 0;
+}
+
+.illustration{
+  margin-bottom: $topbar-margin-bottom;
+}
+
+footer{
+  min-height: 150px;
+  background: $aida_black;
+  
+  padding-top: emCalc(50px);
+  padding-bottom: emCalc(50px);
+
+  text-align: center;
+  h3, a, a:hover{
+    color: white;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
