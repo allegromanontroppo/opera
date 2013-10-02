@@ -6,10 +6,10 @@
 
 
 // All Foundation javascript libraries
-//= require foundation
+// require foundation
 
 // or pick and choose
-// require foundation/foundation
+//= require foundation/foundation
 // require foundation/foundation.alerts
 // require foundation/foundation.clearing
 // require foundation/foundation.cookie
@@ -22,7 +22,7 @@
 // require foundation/foundation.reveal
 // require foundation/foundation.section
 // require foundation/foundation.tooltips
-// require foundation/foundation.topbar
+//= require foundation/foundation.topbar
 
 //= require billboard_and_headliners
 
