@@ -55,7 +55,7 @@
     %nav
       .row
         .column.large-4
-          %h3 Composers
+          %h4 Composers
           %ul.no-bullet
             - composers.each do |composer|
               %li= link_to_composer(composer)
@@ -64,7 +64,7 @@
             %hr
 
         .column.large-4
-          %h3 Operas
+          %h4 Operas
           %ul.no-bullet
             - operas.each do |opera|
               %li= link_to_opera(opera)  
@@ -73,7 +73,7 @@
             %hr  
 
         .column.large-4
-          %h3 Arias
+          %h4 Arias
           %ul.no-bullet
             - arias.each do |aria|
               %li= link_to_aria(aria)

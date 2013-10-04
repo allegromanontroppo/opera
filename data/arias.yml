@@ -97,13 +97,82 @@
   name: Porgi amor
   opera_name: The Marriage of Figaro
   sort_key: porgi amour
+  videos:
+    - //www.youtube.com/embed/PPbMDLo7JFY?rel=0
   synopsis:
+  libretto:
+    Porgi, amor, qualche ristoro
+    al mio duolo, ai miei sospir;
+    o mi rendi il mio tesoro,
+    o mi lascia almen morir.
+
+  libretto_english:
+    Love, give some solace
+    to my grief, to my sighs;
+    either give me back my treasure,
+    or at least let me die.
     
 -
   name: Die vogelfanger bin ich ja
   opera_name: The Magic Flute
   sort_key: vogelfanger bin ich ja
   synopsis:
+  videos:
+    - //www.youtube.com/embed/5-Qq-DeEXhw?rel=0
+  libretto: |
+    Der Vogelfänger bin ich ja
+    Stets lustig heissa hopsasa!
+    Ich Vogelfänger bin bekannt
+    Bei Alt und Jung im ganzen Land
+    Weiß mit dem Lokken umzugehn
+    Und mich aufs Pfeiffen zu verstehen!
+    Drum kann ich froh und lustig sein
+    Denn alle Vögel sind ja mein
+
+    Der Vogelfänger bin ich ja
+    Stets lustig heissa hopsasa!
+    Ich Vogenfänger bin bekannt
+    Bei Alt und Jung im ganzen Land
+    Ein Netz für Mädchen möchte ich
+    Ich fing sie dutzendweis für mich!
+    Dann sperrte ich sie bei mir ein
+    Und alle Mädchen wären mein
+    Wenn alle Mädchen wären mein
+    So tauschte ich brav Zukker ein
+    Die welche mir am liebsten wär
+    Der gäb ich gleich den Zukker her
+    Und küsste sie mich zärtlich dann
+    Wär' sie mein Weib und ich ihr Mann
+    Sie schlief an meiner Seite ein
+    Ich wiegte wie ein Kind sie ein
+    
+  libretto_english: |
+  
+    The birdcatcher I am indeed, 
+    Always happy, heidi heh hey!
+    I, the birdcatcher, am well known
+    To old and young throughout the land. 
+    Know how to get around the bird decoys 
+    And be understood on the fife. 
+    Therefore I can be happy and funny, 
+    For all the birds are indeed mine. 
+    
+    The birdcatcher I am indeed,
+    Always happy, heidi heh hey! 
+    I, the birdcatcher, am well-known 
+    To old and young throughout the land.
+    A net for girls is what I would like;
+    I¹d catch them by the dozen for me! 
+    Then I would lock them up with me 
+    And all the girls would be mine. 
+    If all the girls were mine, 
+    Then I¹d dutifully trade for some sugar. 
+    The one I liked the best, 
+    To her I would immediately give the sugar. 
+    And if she kissed me tenderly then, 
+    She would be my wife and I her husband. 
+    She would fall asleep by my side; 
+    I would rock her to sleep like a child.
     
 -
   name: Der Hölle Rache kocht in meinem Herzen
@@ -140,9 +209,224 @@
     Hear, Gods of Revenge,
     Hear a mother's oath!
   videos: //www.youtube.com/embed/uSdPrX8IZio?rel=0
-  
+
 -
   name: La donna e mobile
   opera_name: Rigoletto
   sort_key: donna e mobile
   synopsis:
+
+
+-
+  name: Largo al factotum
+  opera_name: The Barber of Seville
+  sort_key: largo al factotum
+  videos: //www.youtube.com/embed/7qHZkkgowdY?rel=0
+  synopsis: |
+    "Largo al factotum" (Make way for the factotum) is an aria from The Barber of Seville by Gioachino Rossini, sung at the first entrance of the title character; the repeated "Figaro"s before the final patter section are an icon in popular culture of operatic singing. The term "factotum" refers to a general servant and comes from the Latin where it literally means "do everything."
+  
+    Due to the constant singing of triplets in 6/8 meter at an allegro vivace tempo, the piece is often noted as one of the most difficult baritone arias to perform. This, along with the tongue-twisting nature of some of the lines, insisting on Italian superlatives (always ending in '-issimo'), have made it a pièce de résistance in which a skilled baritone has the chance to highlight all of his qualities.
+
+  libretto: |
+    Largo al factotum della città.
+    Presto a bottega che l'alba è già.
+    Ah, che bel vivere, che bel piacere
+    per un barbiere di qualità! di qualità!
+
+    Ah, bravo Figaro!
+    Bravo, bravissimo!
+    Fortunatissimo per verità!
+
+    Pronto a far tutto,
+    la notte e il giorno
+    sempre d'intorno in giro sta.
+    Miglior cuccagna per un barbiere,
+    vita più nobile, no, non si da.
+
+    Rasoi e pettini
+    lancette e forbici,
+    al mio comando
+    tutto qui sta.
+    V'è la risorsa,
+    poi, del mestiere
+    colla donnetta... col cavaliere...
+
+    Tutti mi chiedono, tutti mi vogliono,
+    donne, ragazzi, vecchi, fanciulle:
+    Qua la parrucca... Presto la barba...
+    Qua la sanguigna...
+    Presto il biglietto...
+    Qua la parrucca, presto la barba,
+    Presto il biglietto, ehi!
+
+    Figaro! Figaro! Figaro!, ecc.
+    Ahimè, che furia!
+    Ahimè, che folla!
+    Uno alla volta, per carità!
+    Ehi, Figaro! Son qua.
+    Figaro qua, Figaro là,
+    Figaro su, Figaro giù,
+
+    Pronto prontissimo son come il fulmine:
+    sono il factotum della città.
+    Ah, bravo Figaro! Bravo, bravissimo;
+    a te fortuna non mancherà.
+
+  libretto_english: |
+    Make way for the handyman of the city.
+    Hurrying to his shop now that it is already dawn.
+    Ah, what a fine life, what a fine pleasure
+    For a barber of quality! Of quality!
+
+    Ah, well done Figaro!
+    Well done, very good!
+    Very fortunate indeed!
+
+    Ready to do everything,
+    Night and day
+    He is always on the move
+    A more plentiful fate for a barber,
+    A more noble life, no, it cannot be had.
+
+    Razors and combs
+    Lancets and scissors,
+    At my command
+    Everything is here.
+    There are the tools,
+    Then, of the trade
+    With the ladies... with the gentlemen...
+
+    Everyone asks for me, everyone wants me,
+    Ladies, children, elders, young girls;
+    Here is the wig... The beard is ready...
+    Here is the blood...
+    The ticket is ready...
+    Here is the wig, the beard is ready,
+    The ticket is ready, hey!
+
+    Figaro! Figaro! Figaro!, etc.
+    Alas, what a fury!
+    Alas, what a crowd!
+    One at a time, please!
+    Hey, Figaro! I am here.
+    Figaro here, Figaro there,
+    Figaro up, Figaro down,
+
+    Quicker and quicker I am like lightning:
+    I am the handyman of the city.
+    Ah, well done Figaro! Well done, very good;
+    You will never lack for luck!
+
+- name: Libiamo ne' lieti calici
+  opera_name: La Traviata
+  sort_key: libiamo ne' lieti calici
+  videos: 
+    - //www.youtube.com/embed/SmHgg8xo13Y?rel=0
+    - //www.youtube.com/embed/5rsciRaJVtE?rel=0
+  synopsis: |
+    "Libiamo ne' lieti calici" (Italian pronunciation: [liˈbjamo nɛ ˈljɛti ˈkalitʃi]; "Let's drink from the joyful cup") is a famous duet with chorus from Verdi's La traviata, one of the best-known opera melodies and a popular performance choice (as is this opera itself) for many great tenors. The song is a brindisi, a lively song that encourages the drinking of wine or other alcoholic beverages. Those who have performed it include Luciano Pavarotti, Giuseppe Di Stefano, Maria Callas, Teresa Stratas, Nino Machaidze, Plácido Domingo, Raimo Sirkiä, José Carreras, Enrico Caruso, Andrea Bocelli, Mario Frangoulis, Angela Gheorghiu, Violetta Villas, Anna Netrebko, and Tarja Turunen. The words were written by Francesco Maria Piave.
+    
+    The duet is performed in the first act of the opera, during a late-night party at Violetta Valéry's house. It is sung by Violetta and Alfredo Germont, a young man who is in love with her. Alfredo is convinced by his friend Gastone and by Violetta to show off his voice. He begins this drinking song, later joined by Violetta and the rest of the company.[1]
+    
+  libretto: |
+    _Alfredo_
+    Libiamo, libiamo ne'lieti calici
+    che la bellezza infiora.
+    E la fuggevol, fuggevol ora
+    s'inebrii a voluttà
+    Libiam ne'dolci fremiti
+    che suscita l'amore,
+    poiché quell'occhio al core onnipotente va.
+    Libiamo, amore, amor fra i calici
+    più caldi baci avrà
+    
+    _Coro_
+    Ah! Libiam, amor, fra' calici
+    più caldi baci avrà
+    
+    _Violetta_
+    Tra voi, tra voi saprò dividere
+    il tempo mio giocondo;
+    Tutto è follia, follia nel mondo
+    ciò che non è piacer
+    Godiam, fugace e rapido
+    è il gaudio dell'amore,
+    è un fior che nasce e muore,
+    ne più si può goder
+    Godiamo, c'invita, c'invita un fervido
+    accento lusinghier.
+    
+    _Coro_
+    Godiamo, la tazza, la tazza e il cantico,
+    la notte abbella e il riso;
+    in questo, in questo paradiso ne scopra il nuovo dì
+    
+    _Violetta_
+    La vita è nel tripudio
+
+    _Alfredo_
+    Quando non s'ami ancora
+    
+    _Violetta_
+    Nol dite a chi l'ignora,
+    
+    _Alfredo_
+    È il mio destin così...
+    
+    _Tutti_
+    Godiamo, la tazza, la tazza e il cantico,
+    la notte abbella e il riso;
+    in questo, in questo paradiso ne scopra il nuovo dì.
+  
+    
+  libretto_english: |
+    _Alfredo_
+    Let's drink, let's drink from the joyous chalices
+    that beauty so truly enhances.
+    And may the brief moment be inebriated
+    with voluptuousness.
+    Let's drink for the ecstatic feeling
+    that love arouses.
+    Because this eye aims straight to the heart, omnipotently.
+    Let's drink, my love, and the love among the chalices
+    will make the kisses warmer.
+    
+    _Chorus_
+    Ah! Let's drink, and the love among the chalices
+    will make the kisses warmer.
+    
+    _Violetta_
+    With you all, I can share
+    my happiest times.
+    Everything in life
+    which is not pleasure is foolish.
+    Let's enjoy ourselves
+    for the delight of love is fleeting and quick.
+    It's like a flower that blooms and dies
+    And we can no longer enjoy it.
+    So enjoy; A keen and flattering
+    voice invites us!
+    
+    _Chorus_
+    Let's enjoy the wine and the singing,
+    the beautiful night, and the laughter.
+    Let the new day find us in this paradise.
+    
+    _Violetta_
+    Life means celebration.
+    
+    _Alfredo_
+    Only if one hasn't known love.
+
+    _Violetta_
+    Don't tell someone who doesn't know.
+    
+    _Alfredo_
+    But this is my fate...
+    
+    _All_
+    Let's enjoy the wine and the singing,
+    the beautiful night, and the laughter.
+    Let the new day find us in this paradise.
+  
+  

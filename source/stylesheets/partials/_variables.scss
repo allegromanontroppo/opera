@@ -13,14 +13,20 @@
 
 // This is the default html and body font-size for the base em value.
 // $em-base: 16px;
-$em-base: 14px;
+
+$base-font-size: 18px;
+$em-base: 16px;
+
+$serif-font-family: 'Fanwood Text', serif;
+$sans-font-family: 'PT Sans', sans-serif;
+
 
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
 $body-font-color: $aida_black;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$body-font-family: 'PT Sans', sans-serif;
+$body-font-family: $serif-font-family;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -90,7 +96,7 @@ $primary-color: $turandot_brown;
 
 // We use these to control header font styles
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-family: 'Crimson Text', serif;
+$header-font-family: $body-font-family;
 // $header-font-weight: bold;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -123,7 +129,7 @@ $header-font-color: $aida_black;
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
 // $paragraph-font-size: 1em;
-$paragraph-font-size: 1.05em;
+$paragraph-font-size: 1.1em;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: emCalc(20px);
 // $paragraph-aside-font-size: emCalc(14px);

@@ -1,8 +1,3 @@
-
-form.custom .custom.checkbox{
-  font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
-}
-
 .main{
   
   section{
@@ -91,10 +86,18 @@ footer{
   padding-bottom: emCalc(50px);
 
   text-align: center;
-  h3, a, a:hover{
+  h4, a, a:hover{
     color: white;
+  }
+  a{
+    font-size: 0.8em;
+    line-height: 1;
   }
   a:hover{
     text-decoration: underline;
   }
+}
+
+.top-bar, footer{
+  font-family: $sans-font-family;
 }
