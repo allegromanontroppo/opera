@@ -100,13 +100,13 @@
   videos:
     - //www.youtube.com/embed/PPbMDLo7JFY?rel=0
   synopsis:
-  libretto:
+  libretto: |
     Porgi, amor, qualche ristoro
     al mio duolo, ai miei sospir;
     o mi rendi il mio tesoro,
     o mi lascia almen morir.
 
-  libretto_english:
+  libretto_english: |
     Love, give some solace
     to my grief, to my sighs;
     either give me back my treasure,
