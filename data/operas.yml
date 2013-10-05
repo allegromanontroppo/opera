@@ -2,7 +2,9 @@
   name: The Marriage of Figaro
   sort_key: marriage of figaro
   composer_name: Wolfgang Amadeus Mozart
-  synopsis:
+  synopsis: |
+    Le nozze di Figaro, ossia la folle giornata (The Marriage of Figaro, or The Day of Madness), K. 492, is an opera buffa (comic opera) in four acts composed in 1786 by Wolfgang Amadeus Mozart, with an Italian libretto written by Lorenzo Da Ponte based on a stage comedy by Pierre Beaumarchais, La folle journée, ou le Mariage de Figaro (1784).
+
 -
   name: Don Giovanni
   sort_key: don giovanni
@@ -11,6 +13,7 @@
     Don Giovanni (K. 527; complete title: Il dissoluto punito, ossia il Don Giovanni, literally The Rake Punished, or Don Giovanni) is an opera in two acts with music by Wolfgang Amadeus Mozart and Italian libretto by Lorenzo Da Ponte. It is based on the legends of Don Juan, a fictional libertine and seducer. It was premiered by the Prague Italian opera at the Teatro di Praga (now called the Estates Theatre) on October 29, 1787.[1] Da Ponte's libretto was billed, like many of its time, as dramma giocoso, a term that denotes a mixing of serious and comic action. Mozart entered the work into his catalogue as an opera buffa. Although sometimes classified as comic, it blends comedy, melodrama and supernatural elements.
   
     A staple of the standard operatic repertoire, Don Giovanni is currently tenth on the Operabase list of the most-performed operas worldwide.[2] It has also proved a fruitful subject for writers and philosophers.
+
 -
   name: The Magic Flute
   sort_key: magic flute
@@ -18,21 +21,36 @@
   videos: //www.youtube.com/embed/h018rMnA0pM?rel=0
   synopsis: |
     The Magic Flute (German: Die Zauberflöte, K. 620) is an opera in two acts by Wolfgang Amadeus Mozart to a German libretto by Emanuel Schikaneder. The work is in the form of a Singspiel, a popular form that included both singing and spoken dialogue.[1] The work premiered in 1791 at Schikaneder's theater, the Freihaus-Theater auf der Wieden in Vienna.
+
 -
   name: La Bohème
   sort_key: boheme
   composer_name: Giacomo Puccini
-  synopsis:
+  synopsis: |
+    La bohème is an opera in four acts,[N 1] composed by Giacomo Puccini to an Italian libretto by Luigi Illica and Giuseppe Giacosa, based on Scènes de la vie de bohème by Henri Murger. [1] The world premiere performance of La bohème was in Turin on 1 February 1896 at the Teatro Regio,[2] conducted by the young Arturo Toscanini. Since then, La bohème has become part of the standard Italian opera repertory and is one of the most frequently performed operas worldwide.[3] In 1946, fifty years after the opera's premiere, Toscanini conducted a performance of it on radio with the NBC Symphony Orchestra. This performance was eventually released on records and on Compact Disc. It is the only recording of a Puccini opera by its original conductor (see Recordings below).
+  
 -
   name: Turandot
   sort_key: turandot
   composer_name: Giacomo Puccini
-  synopsis:
+  synopsis: |
+    Turandot (UK /ˈtjʊər.ən.dɒt/ or US /ˈtʊr.ən.dɑːt/; Italian pronunciation: [turanˈdɔt]) is an opera in three acts by Giacomo Puccini, completed by Franco Alfano, set to a libretto in Italian by Giuseppe Adami and Renato Simoni.
+  
+    Though Puccini's first interest in the subject was based on his reading of Friedrich Schiller's adaptation of the play, his work is most nearly based on the earlier text Turandot by Carlo Gozzi. The original story is based on the epic Turan-Dokht from the book Haft-Peykar, work of 12th-century Persian poet Nizami. The opera's story is set in China and involves Prince Calàf, who falls in love with the cold Princess Turandot. To obtain permission to marry her, a suitor has to solve three riddles; any wrong answer results in death. Calàf passes the test, but Turandot still refuses to marry him. He offers her a way out: if she is able to learn his name before dawn the next day, then at daybreak he will die.
+  
+    The opera was unfinished at the time of Puccini's death in 1924, and was completed by Franco Alfano in 1926. The first performance was held at the Teatro alla Scala in Milan on 25 April 1926 and conducted by Arturo Toscanini. This performance included only Puccini's music and not Alfano's additions. The first performance of the opera as completed by Alfano was the following night, 26 April, although it is disputed whether this was conducted by Toscanini again or by Ettore Panizza.
+  
 -
   name: Tosca
   sort_key: tosca
   composer_name: Giacomo Puccini
-  synopsis:
+  synopsis: |
+    Tosca (Italian pronunciation: [ˈtɔska]) is an opera in three acts by Giacomo Puccini to an Italian libretto by Luigi Illica and Giuseppe Giacosa. It premiered at the Teatro Costanzi in Rome on 14 January 1900. The work, based on Victorien Sardou's 1887 French-language dramatic play, La Tosca, is a melodramatic piece set in Rome in June 1800, with the Kingdom of Naples's control of Rome threatened by Napoleon's invasion of Italy. It contains depictions of torture, murder and suicide, yet also includes some of Puccini's best-known lyrical arias, and has inspired memorable performances from many of opera's leading singers.
+  
+    Puccini saw Sardou's play when it was touring Italy in 1889 and, after some vacillation, obtained the rights to turn the work into an opera in 1895. Turning the wordy French play into a succinct Italian opera took four years, during which the composer repeatedly argued with his librettists and publisher. Tosca premiered at a time of unrest in Rome, and its first performance was delayed for a day for fear of disturbances. Despite indifferent reviews from the critics, the opera was an immediate success with the public.
+  
+    Musically, Tosca is structured as a through-composed work, with arias, recitative, choruses and other elements musically woven into a seamless whole. Puccini used Wagnerian leitmotifs (short musical statements) to identify characters, objects and ideas. While critics have frequently dismissed the opera as a facile melodrama with confusions of plot—musicologist Joseph Kerman famously called it a "shabby little shocker"—the power of its score and the inventiveness of its orchestration have been widely acknowledged. The dramatic force of Tosca and its characters continues to fascinate both performers and audiences, and the work remains one of the most frequently performed operas. Many recordings of the work have been issued, both of studio and live performances.
+   
 -
   name: Madama Butterfly
   sort_key: madama butterfly
@@ -50,22 +68,42 @@
   sort_key: aida
   composer_name: Giuseppe Verdi
   synopsis: |
+    Aida (Italian: [aˈiːda]), sometimes spelled Aïda, is an opera in four acts by Giuseppe Verdi to an Italian libretto by Antonio Ghislanzoni, based on a scenario often attributed to French Egyptologist Auguste Mariette, although Verdi biographer Mary Jane Phillips-Matz has argued that the scenario was actually written by Temistocle Solera.[1] Aida was first performed at the Khedivial Opera House in Cairo on 24 December 1871, conducted by Giovanni Bottesini.
   videos: "//www.youtube.com/embed/l3w4I-KElxQ?rel=0"
+  
 -
   name: Nabucco
   sort_key: nabucco
   composer_name: Giuseppe Verdi
-  synopsis:
+  videos: //www.youtube.com/embed/D6JN0l7A_mE?rel=0
+  synopsis: |
+    Nabucco (short for Nabucodonosor, English Nebuchadnezzar) is an Italian-language opera in four acts composed in 1841 by Giuseppe Verdi to an Italian libretto by Temistocle Solera. The libretto is based on the Biblical story and the 1836 play by Auguste Anicet-Bourgeois and Francis Cornue, although Antonio Cortese's ballet adaptation of the play (with its necessary simplifications), given at La Scala in 1836, was a more important source for Solera than the play itself.[1] Under its original name of Nabucodonosor, the opera was first performed at La Scala in Milan on 9 March 1842.
+
+    Nabucco is the opera which is considered to have permanently established Verdi's reputation as a composer. He commented that "this is the opera with which my artistic career really begins. And though I had many difficulties to fight against, it is certain that Nabucco was born under a lucky star."[2]
+
+    It follows the plight of the Jews as they are assaulted, conquered, and subsequently exiled from their homeland by the Babylonian King Nabucco (in English, Nebuchadnezzar). The historical events are used as background for a romantic and political plot. The best-known number from the opera is the "Chorus of the Hebrew Slaves," Va, pensiero, sull'ali dorate / "Fly, thought, on golden wings," a chorus which is regularly given an encore in many opera houses when performed today.  
+  
 -
   name: La Traviata
   sort_key: traviata
   composer_name: Giuseppe Verdi
-  synopsis:
+  videos :
+    - //www.youtube.com/embed/49UZa0TO2zQ?rel=0
+    - //www.youtube.com/embed/vTekeuLJwko?rel=0
+  synopsis: |
+    La traviata (Italian: [la traˈvjaːta], The Strayed Woman) is an opera in three acts by Giuseppe Verdi set to an Italian libretto by Francesco Maria Piave. It is based on La dame aux Camélias (1852), a play adapted from the novel by Alexandre Dumas, fils. The opera was originally entitled Violetta, after the main character. It was first performed on 6 March 1853 at the La Fenice opera house in Venice.
+    
+    Piave and Verdi wanted to follow Dumas in giving the opera a contemporary setting, but the authorities at La Fenice insisted that it be set in the past, "c. 1700". It was not until the 1880s that the composer and librettist's original wishes were carried out and "realistic" productions were staged.[1]
+
 -
   name: Rigoletto
   sort_key: rigoletto
   composer_name: Giuseppe Verdi
-  synopsis:
+  synopsis: |
+    Rigoletto is an opera in three acts by Giuseppe Verdi. The Italian libretto was written by Francesco Maria Piave based on the play Le roi s'amuse by Victor Hugo. Despite serious initial problems with the Austrian censors who had control over northern Italian theatres at the time, the opera had a triumphant premiere at La Fenice in Venice on 11 March 1851.
+    
+    It is considered by many to be the first of the operatic masterpieces of Verdi's middle-to-late career. Its tragic story revolves around the licentious Duke of Mantua, his hunch-backed court jester Rigoletto, and Rigoletto's beautiful daughter Gilda. The opera's original title, La maledizione (The Curse), refers to the curse placed on both the Duke and Rigoletto by a courtier whose daughter had been seduced by the Duke with Rigoletto's encouragement. The curse comes to fruition when Gilda likewise falls in love with the Duke and eventually sacrifices her life to save him from the assassins hired by her father.
+
 -
   name: The Barber of Seville
   sort_key: barber of seville

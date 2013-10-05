@@ -83,15 +83,113 @@
   name: Nessun Dorma
   opera_name: Turandot
   sort_key: nessun dorma
-  synopsis:
-  libretto:
-  libretto_english:
+  synopsis: |
+    "Nessun dorma" (English: "None shall sleep")[1] is an aria from the final act of Giacomo Puccini's opera Turandot,[2] and is one of the best-known tenor arias in all opera. It is sung by Calaf, il principe ignoto (the unknown prince), who falls in love at first sight with the beautiful but cold Princess Turandot. However, any man who wishes to wed Turandot must first answer her three riddles; if he fails, he will be beheaded.
+  videos:
+    - //www.youtube.com/embed/bUbA5y1hnFg?rel=0
+    - //www.youtube.com/embed/TOfC9LfR3PI?rel=0
+  libretto: |
+    Nessun dorma! 
+    Nessun dorma!
+    Tu pure, o, Principessa,
+    nella tua fredda stanza,
+    guardi le stelle
+    che tremano d'amore
+    e di speranza.
+    Ma il mio mistero è chiuso in me,
+    il nome mio nessun saprà!
+    No, no, sulla tua bocca lo dirò
+    quando la luce splenderà!
+    Ed il mio bacio scioglierà il silenzio
+    che ti fa mia!
+    (Il nome suo nessun saprà!...
+    e noi dovrem, ahime, morir!)
+    Dilegua, o notte!
+    Tramontate, stelle!
+    Tramontate, stelle!
+    All'alba vincerò!
+    vincerò, vincerò!
+  libretto_english: |
+    Nobody shall sleep!... 
+    Nobody shall sleep! 
+    Even you, o Princess, 
+    in your cold room, 
+    watch the stars, 
+    that tremble with love 
+    and with hope.
+    But my secret is hidden within me,
+    my name no one shall know... 
+    No!...No!... 
+    On your mouth I will tell it when the light shines.
+    And my kiss will dissolve the silence that makes you mine!...
+    (No one will know his name and we must, alas, die.)
+    Vanish, o night! 
+    Set, stars! Set, stars! 
+    At dawn, I will win! I will win! I will win!
     
 -
   name: Non pui andrai
   opera_name: The Marriage of Figaro
   sort_key: non pui andrai
-  synopsis:
+  synopsis: At the end of the first act, Count Almaviva finds Cherubino hiding in Susanna's quarters. The Count was already suspicious that Cherubino had designs on his wife, Countess Rosina, and overall disapproves of his loose lifestyle. However, he cannot punish Cherubino, as he himself was only in Susanna's quarters to proposition her. The Count sends Cherubino away instead, to his regiment in Seville. In this aria, Figaro teases Cherubino about his Spartan military future, in stark contrast with the pleasant and flirtatious life he has enjoyed in the Count's palace.[1]
+  videos: //www.youtube.com/embed/e1-FKyOTvto?rel=0
+  libretto: |
+    Non più andrai, farfallone amoroso,
+    notte e giorno d'intorno girando;
+    delle belle turbando il riposo
+    Narcisetto, Adoncino d'amor.
+
+    Non più avrai questi bei pennacchini,
+    quel cappello leggero e galante,
+    quella chioma, quell'aria brillante,
+    quel vermiglio donnesco color.
+
+    Tra guerrieri, poffar Bacco!
+    Gran mustacchi, stretto sacco.
+    Schioppo in spalla, sciabla al fianco,
+    collo dritto, muso franco,
+    un gran casco, o un gran turbante,
+    molto onor, poco contante!
+
+    Ed invece del fandango,
+    una marcia per il fango.
+    Per montagne, per valloni,
+    con le nevi e i sollioni.
+    Al concerto di tromboni,
+    di bombarde, di cannoni,
+    che le palle in tutti i tuoni
+    all'orecchio fan fischiar.
+    Cherubino alla vittoria:
+    alla gloria militar!
+    
+  libretto_english: |
+    You shall frolic no more, lustful butterfly,
+    Day and night flitting to and fro;
+    Disturbing ladies in their sleep
+    Little Narcissus, Adonis of love.
+
+    No longer will you have these beautiful feathers,
+    That light, romantic cap,
+    That hair, that glowing countenance,
+    That rosy, womanly complexion.
+
+    Among soldiers, by Jove!
+    A big moustache, a little kit.
+    With a rifle on your shoulder, and a sabre on your flank,
+    Standing up straight, hard faced,
+    A big helmet, or a big turban,
+    Plenty of honour, little pay!
+
+    And instead of dancing the fandango,
+    A march through the mud.
+    Through mountains, through valleys,
+    With snow and with the sun beating down.
+    To the beat of the bugle,
+    Of bombs, of cannons,
+    Whose thunderous report
+    Makes your ears ring.
+    Cherubino, to victory:
+    To glory in battle!
     
 -
   name: Porgi amor
@@ -178,7 +276,11 @@
   name: Der Hölle Rache kocht in meinem Herzen
   opera_name: The Magic Flute
   sort_key: holle rache koche in meinem herzen
-  synopsis:
+  synopsis: |
+    "Der Hölle Rache kocht in meinem Herzen" ("Hell's vengeance boils in my heart"), commonly abbreviated Der Hölle Rache, is the second aria sung by the Queen of the Night, a soprano coloratura part, in Mozart's opera The Magic Flute (Die Zauberflöte). It is considered to be one of the most famous opera arias, highly memorable, fast paced and menacingly grandiose. It is often referred to as the Queen of the Night Aria despite the fact that the Queen of the Night character sings another distinguished aria earlier in the opera, "O zittre nicht, mein lieber Sohn".
+    
+    The aria forms part of the second act of the opera. It depicts a fit of vengeful rage, in which the Queen of the Night places a knife into the hand of her daughter Pamina and exhorts her to assassinate Sarastro, the Queen's rival, on pain of denying and cursing Pamina if she does not comply.
+  
   libretto: |
     Der Hölle Rache kocht in meinem Herzen,
     Tod und Verzweiflung flammet um mich her!
@@ -214,7 +316,37 @@
   name: La donna e mobile
   opera_name: Rigoletto
   sort_key: donna e mobile
-  synopsis:
+  synopsis: |
+    "La donna è mobile" (The woman is fickle) is the Duke of Mantua's canzone from the beginning of act 3 of Giuseppe Verdi's opera Rigoletto (1851). The inherent irony is that the Duke, a callous playboy, is the one who is mobile ("inconstant"). Its reprise towards the end of the opera is chilling, as Rigoletto realizes from the sound of the Duke's lively voice coming from within the tavern (offstage), that the body in the sack over which he has grimly triumphed is not that of the Duke after all: Rigoletto had paid Sparafucile, an assassin, to kill the Duke but Sparafucile deceived him by killing Gilda, Rigoletto's beloved daughter, instead.
+    
+    The canzone is famous as a showcase for tenors. Raffaele Mirate's performance of the bravura aria at the opera's 1851 premiere was hailed as the highlight of the evening. Before its first public performance (in Venice), it was rehearsed under tight secrecy:[1] a necessary precaution, because it proved to be catchy and soon after its first public performance every gondolier in Venice was singing it.
+  videos: //www.youtube.com/embed/G_pn13q_tvA?rel=0
+  libretto: |
+    La donna è mobile
+    Qual piuma al vento,
+    Muta d'accento — e di pensiero.
+    Sempre un amabile,
+    Leggiadro viso,
+    In pianto o in riso, — è menzognero.
+    È sempre misero
+    Chi a lei s'affida,
+    Chi le confida — mal cauto il cuore!
+    Pur mai non sentesi
+    Felice appieno
+    Chi su quel seno — non liba amore!
+  libretto_english: |
+    Woman is flighty
+    Like a feather in the wind,
+    She changes her voice — and her mind.
+    Always sweet,
+    Pretty face,
+    In tears or in laughter, — she is always lying.
+    Always miserable
+    Is he who trusts her,
+    He who confides in her — his unwary heart!
+    Yet one never feels
+    Fully happy
+    Who on that bosom — does not drink love!
 
 
 -
@@ -429,4 +561,202 @@
     the beautiful night, and the laughter.
     Let the new day find us in this paradise.
   
-  
+-
+  name: Che gelida manina
+  opera_name: La Bohème
+  sort_key: che gelida manina
+  videos: //www.youtube.com/embed/rpxXlhTP8os?rel=0
+  libretto: |
+    Che gelida manina,
+    se la lasci riscaldar.
+    Cercar che giova?
+    Al buio non si trova.
+    Ma per fortuna
+    é una notte di luna,
+    e qui la luna
+    l?abbiamo vicina.
+    Aspetti, signorina,
+    le dirò con due parole
+    chi son, e che faccio,	
+    come vivo. Vuole?
+    Chi son? Sono un poeta.
+    Che cosa faccio? Scrivo.
+    E come vivo? Vivo.
+    In povertà mia lieta
+    scialo da gran signore
+    rime ed inni d?amore.	
+    Per sogni e per chimere
+    e per castelli in aria,
+    l?anima ho milionaria.
+    Talor dal mio forziere
+    ruban tutti i gioelli
+    due ladri, gli occhi belli.
+    V?entrar con voi pur ora,
+    ed i miei sogni usati
+    e i bei sogni miei,
+    tosto si dileguar!
+    Ma il furto non m?accora,
+    poiché, poiché v?ha preso stanza
+    la speranza!
+    Or che mi conoscete,
+    parlate voi, deh! Parlate. Chi siete?
+    Vi piaccia dir!
+  libretto_english: |
+    What a frozen little hand,
+    let me warm it for you.
+    What's the use of looking?
+    We won't find it in the dark.
+    But luckily
+    it's a moonlit night,
+    and the moon
+    is near us here.
+    Wait, mademoiselle,
+    I will tell you in two words,
+    who I am, what I do,
+    and how I live. May I?
+    Who am I? I am a poet.
+    What do I do? I write.
+    And how do I live? I live.
+    In my carefree poverty
+    I squander rhymes
+    and love songs like a lord.
+    When it comes to dreams and visions
+    and castles in the air,
+    I've the soul of a millionaire.
+    From time to time two thieves
+    steal all the jewels
+    out of my safe, two pretty eyes.
+    They came in with you just now,
+    and my customary dreams
+    my lovely dreams,
+    melted at once into thin air!
+    Bu the theft doesn't anger me,
+    for their place has been
+    taken by hope!
+    Now that you know all about me,
+    you tell me who you are.
+    Please do!
+
+- 
+  name: Mi chiamano Mimi
+  opera_name: La Bohème
+  videos: //www.youtube.com/embed/Bm29-POmIg8?rel=0
+  sort_key: mi chiamano Mimi
+  libretto: |
+    Sì. Mi chiamano Mimì,
+    ma il mio nome è Lucia.
+    La storia mia è breve.
+    A tela o a seta
+    ricamo in casa e fuori...
+    Son tranquilla e lieta
+    ed è mio svago
+    far gigli e rose.
+    Mi piaccion quelle cose
+    che han sì dolce malìa,
+    che parlano d'amor, di primavere,
+    di sogni e di chimere,
+    quelle cose che han nome poesia...
+    Lei m'intende?
+    Mi chiamano Mimì,
+    il perché non so.
+    Sola, mi fo
+    il pranzo da me stessa.
+    Non vado sempre a messa,
+    ma prego assai il Signore.
+    Vivo sola, soletta
+    là in una bianca cameretta:
+    guardo sui tetti e in cielo;
+    ma quando vien lo sgelo
+    il primo sole è mio
+    il primo bacio dell'aprile è mio!
+    Germoglia in un vaso una rosa...
+    Foglia a foglia la spio!
+    Cosi gentile il profumo d'un fiore!
+    Ma i fior ch'io faccio,
+    Ahimè! non hanno odore.
+    Altro di me non le saprei narrare.
+    Sono la sua vicina che la vien fuori d'ora a importunare.
+  libretto_english: |
+    Yes, they call me Mimi,
+    but my true name is Lucia.
+    My story is short.
+    A canvas or a silk
+    I embroidery at home and abroad...
+    I am happy happy and at peace
+    and my pastime
+    is to make lilies and roses.
+    I love all things
+    that have gentle sweet smells,
+    that speak of love, of spring, 
+    of dreams and fanciful things,
+    those things that have poetic names ...
+    Do you understand me?
+    They call me Mimi,
+    I do not know why. 
+    Alone, I make
+    lunch by myself.
+    I do not go to church,
+    but I pray a lot to the Lord.
+    I stay all alone
+    there in a white room
+    and look upon the roofs and the sky
+    but when the thaw comes
+    The first sun, like my
+    first kiss, is mine!
+    Buds in a vase...
+    Leaf and leaf I spy!
+    That gentle perfume of a flower!
+    But the flowers that I make,
+    Alas! no smell.
+    Other than telling you about me, I know nothing.
+    I am only your neighbor who comes out to bother you.
+    
+-
+  name: Quando me'n vo'
+  opera_name: La Bohème
+  videos: //www.youtube.com/embed/jFf4lg2pMWI?rel=0
+  sort_key: quando me'n vo
+  libretto: |
+    Quando me'n vo'
+    Quando me'n vo' soletta per la via,
+    la gente sosta e mira,
+    e la bellezza mia tutta ricerca in me,
+    ricerca in me
+    Da capo a' piè.
+
+    Ed assaporo allor la bramosia
+    sottil che dagli occhi traspira
+    e dai palesi vezzi intender sa
+    alle occulte beltà.
+    Così l’effluvio del desìo tutta m'aggira,
+    felice mi fa!
+
+    E tu che sai, che memori e ti struggi,
+    da me tanto rifuggi?
+
+    So ben:
+    le angosce tue non le vuoi dir,
+    non le vuoi dir, so ben,
+    ma ti senti morir!
+  libretto_english: |
+    When I walk
+    When I walk alone in the street
+    People stop and stare at me
+    And everyone looks at my beauty,
+    Looks at me
+    From head to foot.
+
+    And then I relish the sly yearning
+    Which escapes from their eyes
+    And which is able to perceive
+    My most hidden beauties.
+    Thus the scent of desire is all around me,
+    And it makes me happy!
+
+    And you who know, who remember and yearn,
+    You shrink from me?
+
+    I know it very well:
+    You do not want to express your anguish,
+    I know so well that you do not want to express it
+    but you feel as if you are dying!

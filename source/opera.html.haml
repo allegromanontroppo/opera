@@ -26,8 +26,10 @@
 
     .large-3.pull-9.columns.illustration= image_tag opera.image_src
 
-%aside.callouts
-  .row
-    .columns
-      %h3 Arias in #{ opera.name }
-  = render_callouts composer, opera, arias(opera)
+- if arias = arias(opera) and arias.any?
+
+  %aside.callouts
+    .row
+      .columns
+        %h3 Arias in #{ opera.name }
+    = render_callouts composer, opera, arias

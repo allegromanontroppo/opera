@@ -14,11 +14,13 @@
   
     .large-3.pull-9.columns.illustration= image_tag composer.image_src, :class => 'radius'
   
-%aside.callouts
-  .row
-    .columns
-      %h3 #{ composer.surname }'s operas
-  = render_callouts composer, operas(composer)
+- if operas = operas(composer) and operas.any?
+  
+  %aside.callouts
+    .row
+      .columns
+        %h3 #{ composer.surname }'s operas
+    = render_callouts composer, operas
       
 
                 
