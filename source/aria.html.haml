@@ -25,8 +25,9 @@
 
       - [*aria.videos].each do |video|  
         = partial 'partials/video', :locals => { :video => video }
+          
+    .large-3.pull-9.columns.illustration.show-for-medium-up= image_tag aria.image_src
   
-    .large-3.pull-9.columns.illustration= image_tag aria.image_src
 
   - if aria.libretto? and aria.libretto_english?
     %aside#libretto
