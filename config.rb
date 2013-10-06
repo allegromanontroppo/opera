@@ -3,7 +3,6 @@ require "helpers/link_helpers"
 helpers OperaHelpers
 helpers LinkHelpers
 
-
 ###
 # Compass
 ###
@@ -31,7 +30,6 @@ helpers LinkHelpers
 #   end
 # end
 
-activate :image_optim
 
 ###
 # Page options, layouts, aliases and proxies
@@ -85,6 +83,10 @@ configure :build do
 
   # Use relative URLs
   activate :relative_assets
+  
+  activate :directory_indexes
+  
+  activate :image_optim
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"

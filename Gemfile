@@ -17,3 +17,4 @@ end
 
 gem 'middleman-gh-pages'
 gem "middleman-imageoptim", "~> 0.0.4"
+#gem 'middleman-thumbnailer', :git => 'git://github.com/nhemsley/middleman-thumbnailer.git'
