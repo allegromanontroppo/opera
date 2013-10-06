@@ -16,3 +16,4 @@ platforms :mri_18 do
 end
 
 gem 'middleman-gh-pages'
+gem "middleman-imageoptim", "~> 0.0.4"

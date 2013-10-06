@@ -31,6 +31,8 @@ helpers LinkHelpers
 #   end
 # end
 
+activate :image_optim
+
 ###
 # Page options, layouts, aliases and proxies
 ###
