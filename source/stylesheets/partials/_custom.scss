@@ -14,13 +14,10 @@
     margin-top: 0;
   }
 }
-
-.breadcrumb_row{
-  margin-top: $topbar-margin-bottom * 0.7;
   
-  .breadcrumbs{
-    margin-bottom: 0;
-  }
+.breadcrumbs{
+  margin-top: emCalc(20px);
+  margin-bottom: 0;
 }
 
 .home{
@@ -47,7 +44,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -1px;
     background-color: $color;
     opacity: 0.6;
     
@@ -91,7 +88,6 @@ footer{
   }
   a{
     font-size: 0.8em;
-    line-height: 1;
   }
   a:hover{
     text-decoration: underline;
