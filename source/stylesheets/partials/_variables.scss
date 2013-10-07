@@ -1010,7 +1010,7 @@ $topbar-bg: $turandot_brown;
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;
-$topbar-dropdown-bg: red;
+$topbar-dropdown-bg: lighten($turandot_brown, 5%);
 // $topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
