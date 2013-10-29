@@ -13,13 +13,11 @@
 </head>
 <body>
   <div class='contain-to-grid'>
-    <nav class='top-bar fixed'>
+    <nav class='top-bar'>
       <ul class='title-area'>
         <!-- Title Area -->
         <li class='name'>
-          <h1>
-            <a href="./">Access All Arias</a>
-          </h1>
+          <h1><a href="./">Access All Arias</a></h1>
         </li>
         <li class='toggle-topbar menu-icon'>
           <a href='#'>
@@ -160,17 +158,13 @@
     <div class='row'>
       <div class='columns'>
         <img src="images/billboards/{{ image_src }}">
-      </div>
-    </div>
-    {{#if caption}}
-    <div class='caption'>
-      <div class='row'>
-        <div class='columns'>
+        {{#if caption}}
+        <div class='caption'>
           <h4>{{ caption }}</h4>
         </div>
+        {{/if}}
       </div>
     </div>
-    {{/if}}
   </script>
   <script id='callout-template' type='text/x-handlebars-template'>
     {{#each this}}
@@ -179,11 +173,9 @@
         <ul class='small-block-grid-2 large-block-grid-4'>
           {{#each this}}
           <li>
-            <a href="{{ url }}">
-            <div class='panel radius'>
-              <h5 class='subheader'>{{ name }}</h5>
-              <img src="{{ image_src }}">
-            </div>
+            <a href="{{ url }}" class="panel radius">
+            <img src="{{ image_src }}">
+            <h5 class='subheader'>{{ name }}</h5>
             </a>
           </li>
           {{/each}}
