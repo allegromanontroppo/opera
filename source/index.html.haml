@@ -14,12 +14,10 @@
     .row
       .columns
         <img src="images/billboards/{{ image_src }}">
-    {{#if caption}} 
-    .caption
-      .row
-        .columns
+        {{#if caption}} 
+        .caption
           %h4 {{ caption }}
-    {{/if}}
+        {{/if}}
 
   %script#callout-template{type: "text/x-handlebars-template"}
     {{#each this}}
@@ -28,10 +26,9 @@
         %ul.small-block-grid-2.large-block-grid-4
           {{#each this}}
           %li
-            <a href="{{ url }}">
-            .panel.radius
-              %h5.subheader {{ name }}
-              <img src="{{ image_src }}">
+            <a href="{{ url }}" class="panel radius">
+            <img src="{{ image_src }}">
+            %h5.subheader {{ name }}
             </a>
           {{/each}}
     {{/each}}

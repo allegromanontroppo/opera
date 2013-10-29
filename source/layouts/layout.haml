@@ -18,15 +18,15 @@
 
 %body
   .contain-to-grid
-    %nav.top-bar.fixed
+    %nav.top-bar
       %ul.title-area
         / Title Area
         %li.name
-          %h1
-            = link_to 'Access All Arias', '/index.html'
+          %h1= link_to 'Access All Arias', '/index.html'
         %li.toggle-topbar.menu-icon
           %a{:href => "#"}
             %span menu
+            
       %section.top-bar-section
         / Right Nav Section
         %ul.right
