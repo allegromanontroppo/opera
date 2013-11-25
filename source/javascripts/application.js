@@ -1,5 +1,5 @@
 // Require either Zepto
-//= require vendor/zepto
+// require vendor/zepto
 
 // or jQuery
 // require vendor/jquery

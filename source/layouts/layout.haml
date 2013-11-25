@@ -78,5 +78,8 @@
             - arias.each do |aria|
               %li= link_to_aria(aria)
 
+
+  :javascript
+    document.write('<script src="/javascripts/vendor/' + ('__proto__' in {} ? 'zepto' : 'jquery-1.10.2') + '.min.js"><\/script>')
   = javascript_include_tag "application"
   = yield_content :javascripts
