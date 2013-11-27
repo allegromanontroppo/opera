@@ -81,6 +81,6 @@
 
   = javascript_include_tag '//code.jquery.com/jquery-2.0.3.min.js'          
   :javascript
-    window.jQuery && document.write('<script src="/javascripts/vendor/jquery-2.0.3.min.js"><\/script>')
+    window.jQuery || document.write('<script src="/javascripts/vendor/jquery-2.0.3.min.js"><\/script>')
   = javascript_include_tag "application"
   = yield_content :javascripts
