@@ -8,11 +8,11 @@
       %hr
     
   %section.row      
-    .large-8.push-3.columns
+    .large-8.large-push-3.medium-8.medium-push-4.columns
       :markdown
         #{ composer.bio }
   
-    .large-3.pull-9.columns.illustration= image_tag composer.image_src, :class => 'radius'
+    .large-3.large-pull-9.medium-4.medium-pull-8.columns.illustration= image_tag composer.image_src
   
 - if operas = operas(composer) and operas.any?
   

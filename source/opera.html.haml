@@ -16,15 +16,17 @@
       %hr
 
   %section.row
-    .large-8.push-3.columns
+    .large-8.large-push-3.medium-8.medium-push-4.columns
 
       :markdown
         #{ opera.synopsis }
 
+    .large-3.large-pull-9.medium-4.medium-pull-8.columns.illustration= image_tag opera.image_src
+  
+  %section.row
+    .column
       - [*opera.videos].each do |video|  
         = partial 'partials/video', :locals => { :video => video }
-
-    .large-3.pull-9.columns.illustration= image_tag opera.image_src
 
 - if arias = arias(opera) and arias.any?
 

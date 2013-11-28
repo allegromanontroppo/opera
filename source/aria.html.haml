@@ -18,21 +18,23 @@
       %hr
 
   %section.row
-    .large-8.push-3.columns
+    .large-8.large-push-3.medium-8.medium-push-4.columns
 
       :markdown
         #{ aria.synopsis }
-
+        
+    .large-3.large-pull-9.medium-4.medium-pull-8.columns.illustration= image_tag aria.image_src
+    
+  %section.row
+    .column
       - [*aria.videos].each do |video|  
         = partial 'partials/video', :locals => { :video => video }
-          
-    .large-3.pull-9.columns.illustration.show-for-medium-up= image_tag aria.image_src
   
 
   - if aria.libretto? and aria.libretto_english?
     %aside#libretto
       .row 
-        .columns{ :class => ('large-8 large-offset-2' unless aria.libretto_english?) }
+        .columns
           %h3 Libretto
           .row
             - libretti_of_aria(aria).each do |libretto|

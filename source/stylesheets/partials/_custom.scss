@@ -30,7 +30,7 @@
 }
   
 .breadcrumbs{
-  @include vertically-margined(20px, 0);
+  @include vertically-margined(25px, 10px);
 }
 
 .home{
@@ -47,14 +47,13 @@
   text-shadow: 2px 2px 0 whitesmoke;
 }
 
-article section:last-of-type{
-  @include vertically-margined(0, 20px);
+section.row{
+  @include vertically-margined(10px, 10px);
 }
-
 
 #billboard{
   
-  margin-bottom: 0;
+  @include vertically-margined(0, 0);
   position: relative;
     
   .caption{
@@ -65,7 +64,7 @@ article section:last-of-type{
 .callouts{
   
   background: $aida_yellow;
-  @include vertically-margined(0,0);
+  @include vertically-margined(0, 0);
   @include vertically-padded(30px, 10px);
   
   h3{
@@ -87,8 +86,9 @@ article section:last-of-type{
   margin-bottom: 0;
 }
 
-.illustration{
-  margin-bottom: $topbar-margin-bottom;
+.illustration img{
+  box-shadow: 0 0 5px 1px lightgray;
+  border-radius: 2px;
 }
 
 footer{
