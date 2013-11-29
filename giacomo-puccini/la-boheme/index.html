@@ -12,203 +12,275 @@
   <script src="../../javascripts/vendor/custom.modernizr.js" type="text/javascript"></script>
 </head>
 <body>
-  <div class='contain-to-grid'>
-    <nav class='top-bar'>
-      <ul class='title-area'>
-        <!-- Title Area -->
-        <li class='name'>
-          <h1><a href="../../">Access All Arias</a></h1>
-        </li>
-        <li class='toggle-topbar menu-icon'>
-          <a href='#'>
-            <span>menu</span>
-          </a>
-        </li>
-      </ul>
-      <section class='top-bar-section'>
-        <!-- Right Nav Section -->
-        <ul class='right'>
-          <li class='divider'></li>
-          <li class='has-dropdown'>
-            <a href='#'>Composers</a>
-            <ul class='dropdown'>
-              <li><a href="../../georges-bizet/">Georges Bizet</a></li>
-              <li><a href="../../pietro-mascagni/">Pietro Mascagni</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/">Wolfgang Amadeus Mozart</a></li>
-              <li><a href="../">Giacomo Puccini</a></li>
-              <li><a href="../../gioachino-rossini/">Gioachino Rossini</a></li>
-              <li><a href="../../giuseppe-verdi/">Giuseppe Verdi</a></li>
-              <li><a href="../../richard-wagner/">Richard Wagner</a></li>
-            </ul>
+  <div class='off-canvas-wrap'>
+    <div class='inner-wrap'>
+      <a class='exit-off-canvas'></a>
+      <aside class='left-off-canvas-menu'>
+        <ul class='off-canvas-list'>
+          <li>
+            <label>Composers</label>
           </li>
-          <li class='divider'></li>
-          <li class='has-dropdown'>
-            <a href='#'>Operas</a>
-            <ul class='dropdown'>
-              <li><a href="../../giuseppe-verdi/aida/">Aida</a></li>
-              <li><a href="../../gioachino-rossini/the-barber-of-seville/">The Barber of Seville</a></li>
-              <li><a href="./">La Bohème</a></li>
-              <li><a href="../../pietro-mascagni/cavalleria-rusticana/">Cavalleria Rusticana</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/don-giovanni/">Don Giovanni</a></li>
-              <li><a href="../madama-butterfly/">Madama Butterfly</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/">The Magic Flute</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/">The Marriage of Figaro</a></li>
-              <li><a href="../../giuseppe-verdi/nabucco/">Nabucco</a></li>
-              <li><a href="../../giuseppe-verdi/rigoletto/">Rigoletto</a></li>
-              <li><a href="../tosca/">Tosca</a></li>
-              <li><a href="../../giuseppe-verdi/la-traviata/">La Traviata</a></li>
-              <li><a href="../turandot/">Turandot</a></li>
-            </ul>
-          </li>
-          <li class='divider'></li>
-          <li class='has-dropdown'>
-            <a href='#'>Arias</a>
-            <ul class='dropdown'>
-              <li><a href="../madama-butterfly/un-bel-di-vedremo/">Un bel dì vedremo</a></li>
-              <li><a href="che-gelida-manina/">Che gelida manina</a></li>
-              <li><a href="../../giuseppe-verdi/rigoletto/la-donna-e-mobile/">La donna e mobile</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/der-holle-rache-kocht-in-meinem-herzen/">Der Hölle Rache kocht in meinem Herzen</a></li>
-              <li><a href="../../gioachino-rossini/the-barber-of-seville/largo-al-factotum/">Largo al factotum</a></li>
-              <li><a href="../../giuseppe-verdi/la-traviata/libiamo-ne-lieti-calici/">Libiamo ne' lieti calici</a></li>
-              <li><a href="mi-chiamano-mimi/">Mi chiamano Mimi</a></li>
-              <li><a href="../turandot/nessun-dorma/">Nessun Dorma</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/non-pui-andrai/">Non pui andrai</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/porgi-amor/">Porgi amor</a></li>
-              <li><a href="quando-me-n-vo/">Quando me'n vo'</a></li>
-              <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/die-vogelfanger-bin-ich-ja/">Die vogelfanger bin ich ja</a></li>
-            </ul>
-          </li>
+          <li><a href="../../georges-bizet/">Georges Bizet</a></li>
+          <li><a href="../../pietro-mascagni/">Pietro Mascagni</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/">Wolfgang Amadeus Mozart</a></li>
+          <li><a href="../">Giacomo Puccini</a></li>
+          <li><a href="../../gioachino-rossini/">Gioachino Rossini</a></li>
+          <li><a href="../../giuseppe-verdi/">Giuseppe Verdi</a></li>
+          <li><a href="../../richard-wagner/">Richard Wagner</a></li>
         </ul>
-      </section>
-    </nav>
-  </div>
-  <div class='main'>
-    <div class='row breadcrumb_row'>
-      <div class='columns'>
-        <ul class="breadcrumbs"><li><a href="../">Giacomo Puccini</a></li><li class="current"><a href="./">La Bohème</a></li></ul>
+        <ul class='off-canvas-list'>
+          <li>
+            <label>Operas</label>
+          </li>
+          <li><a href="../../giuseppe-verdi/aida/">Aida</a></li>
+          <li><a href="../../gioachino-rossini/the-barber-of-seville/">The Barber of Seville</a></li>
+          <li><a href="./">La Bohème</a></li>
+          <li><a href="../../pietro-mascagni/cavalleria-rusticana/">Cavalleria Rusticana</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/don-giovanni/">Don Giovanni</a></li>
+          <li><a href="../madama-butterfly/">Madama Butterfly</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/">The Magic Flute</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/">The Marriage of Figaro</a></li>
+          <li><a href="../../giuseppe-verdi/nabucco/">Nabucco</a></li>
+          <li><a href="../../giuseppe-verdi/rigoletto/">Rigoletto</a></li>
+          <li><a href="../tosca/">Tosca</a></li>
+          <li><a href="../../giuseppe-verdi/la-traviata/">La Traviata</a></li>
+          <li><a href="../turandot/">Turandot</a></li>
+        </ul>
+        <ul class='off-canvas-list'>
+          <li>
+            <label>Arias</label>
+          </li>
+          <li><a href="../madama-butterfly/un-bel-di-vedremo/">Un bel dì vedremo</a></li>
+          <li><a href="che-gelida-manina/">Che gelida manina</a></li>
+          <li><a href="../../giuseppe-verdi/rigoletto/la-donna-e-mobile/">La donna e mobile</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/der-holle-rache-kocht-in-meinem-herzen/">Der Hölle Rache kocht in meinem Herzen</a></li>
+          <li><a href="../../gioachino-rossini/the-barber-of-seville/largo-al-factotum/">Largo al factotum</a></li>
+          <li><a href="../../giuseppe-verdi/la-traviata/libiamo-ne-lieti-calici/">Libiamo ne' lieti calici</a></li>
+          <li><a href="mi-chiamano-mimi/">Mi chiamano Mimi</a></li>
+          <li><a href="../turandot/nessun-dorma/">Nessun Dorma</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/non-pui-andrai/">Non pui andrai</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/porgi-amor/">Porgi amor</a></li>
+          <li><a href="quando-me-n-vo/">Quando me'n vo'</a></li>
+          <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/die-vogelfanger-bin-ich-ja/">Die vogelfanger bin ich ja</a></li>
+        </ul>
+      </aside>
+      <nav class='tab-bar show-for-small'>
+        <section class='left-small'>
+          <a class='left-off-canvas-toggle menu-icon'>
+            <span></span>
+          </a>
+        </section>
+        <section class='right tab-bar-section'>
+          <h1>Access All Arias</h1>
+        </section>
+      </nav>
+      <div class='main-section'>
+        <div class='contain-to-grid hide-for-small'>
+          <nav class='top-bar' data-topbar=''>
+            <ul class='title-area'>
+              <!-- Title Area -->
+              <li class='name'>
+                <h1><a href="../../">Access All Arias</a></h1>
+              </li>
+              <li class='toggle-topbar menu-icon'>
+                <a href='#'>
+                  <span>menu</span>
+                </a>
+              </li>
+            </ul>
+            <section class='top-bar-section'>
+              <!-- Right Nav Section -->
+              <ul class='right'>
+                <li class='divider'></li>
+                <li class='has-dropdown'>
+                  <a href='#'>Composers</a>
+                  <ul class='dropdown'>
+                    <li><a href="../../georges-bizet/">Georges Bizet</a></li>
+                    <li><a href="../../pietro-mascagni/">Pietro Mascagni</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/">Wolfgang Amadeus Mozart</a></li>
+                    <li><a href="../">Giacomo Puccini</a></li>
+                    <li><a href="../../gioachino-rossini/">Gioachino Rossini</a></li>
+                    <li><a href="../../giuseppe-verdi/">Giuseppe Verdi</a></li>
+                    <li><a href="../../richard-wagner/">Richard Wagner</a></li>
+                  </ul>
+                </li>
+                <li class='divider'></li>
+                <li class='has-dropdown'>
+                  <a href='#'>Operas</a>
+                  <ul class='dropdown'>
+                    <li><a href="../../giuseppe-verdi/aida/">Aida</a></li>
+                    <li><a href="../../gioachino-rossini/the-barber-of-seville/">The Barber of Seville</a></li>
+                    <li><a href="./">La Bohème</a></li>
+                    <li><a href="../../pietro-mascagni/cavalleria-rusticana/">Cavalleria Rusticana</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/don-giovanni/">Don Giovanni</a></li>
+                    <li><a href="../madama-butterfly/">Madama Butterfly</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/">The Magic Flute</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/">The Marriage of Figaro</a></li>
+                    <li><a href="../../giuseppe-verdi/nabucco/">Nabucco</a></li>
+                    <li><a href="../../giuseppe-verdi/rigoletto/">Rigoletto</a></li>
+                    <li><a href="../tosca/">Tosca</a></li>
+                    <li><a href="../../giuseppe-verdi/la-traviata/">La Traviata</a></li>
+                    <li><a href="../turandot/">Turandot</a></li>
+                  </ul>
+                </li>
+                <li class='divider'></li>
+                <li class='has-dropdown'>
+                  <a href='#'>Arias</a>
+                  <ul class='dropdown'>
+                    <li><a href="../madama-butterfly/un-bel-di-vedremo/">Un bel dì vedremo</a></li>
+                    <li><a href="che-gelida-manina/">Che gelida manina</a></li>
+                    <li><a href="../../giuseppe-verdi/rigoletto/la-donna-e-mobile/">La donna e mobile</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/der-holle-rache-kocht-in-meinem-herzen/">Der Hölle Rache kocht in meinem Herzen</a></li>
+                    <li><a href="../../gioachino-rossini/the-barber-of-seville/largo-al-factotum/">Largo al factotum</a></li>
+                    <li><a href="../../giuseppe-verdi/la-traviata/libiamo-ne-lieti-calici/">Libiamo ne' lieti calici</a></li>
+                    <li><a href="mi-chiamano-mimi/">Mi chiamano Mimi</a></li>
+                    <li><a href="../turandot/nessun-dorma/">Nessun Dorma</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/non-pui-andrai/">Non pui andrai</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/porgi-amor/">Porgi amor</a></li>
+                    <li><a href="quando-me-n-vo/">Quando me'n vo'</a></li>
+                    <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/die-vogelfanger-bin-ich-ja/">Die vogelfanger bin ich ja</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </nav>
+        </div>
       </div>
+      <div class='main'>
+        <div class='row breadcrumb_row'>
+          <div class='columns'>
+            <ul class="breadcrumbs"><li><a href="../">Giacomo Puccini</a></li><li class="current"><a href="./">La Bohème</a></li></ul>
+          </div>
+        </div>
+        <article>
+          <section class='row'>
+            <div class='columns'>
+              <h1>
+                La Bohème
+              </h1>
+              <h2 class='subheader'>
+                By
+                <a href="../">Giacomo Puccini</a>
+              </h2>
+              <hr>
+            </div>
+          </section>
+          <section class='row'>
+            <div class='large-8 large-push-3 medium-8 medium-push-4 columns'>
+              <p>La bohème is an opera in four acts,[N 1] composed by Giacomo Puccini to an Italian libretto by Luigi Illica and Giuseppe Giacosa, based on Scènes de la vie de bohème by Henri Murger. [1] The world premiere performance of La bohème was in Turin on 1 February 1896 at the Teatro Regio,[2] conducted by the young Arturo Toscanini. Since then, La bohème has become part of the standard Italian opera repertory and is one of the most frequently performed operas worldwide.[3] In 1946, fifty years after the opera's premiere, Toscanini conducted a performance of it on radio with the NBC Symphony Orchestra. This performance was eventually released on records and on Compact Disc. It is the only recording of a Puccini opera by its original conductor (see Recordings below).</p>
+            </div>
+            <div class='large-3 large-pull-9 medium-4 medium-pull-8 columns illustration'><img src="../../images/operas/la-boheme.jpg" /></div>
+          </section>
+          <section class='row'>
+            <div class='column'>
+            </div>
+          </section>
+        </article>
+        <aside class='callouts'>
+          <div class='row'>
+            <div class='columns'>
+              <h3>Arias in La Bohème</h3>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='columns'>
+              <ul class='small-block-grid-2 large-block-grid-4'>
+                <li>
+                          <a href="che-gelida-manina/"><div class='panel radius'>
+                    <img src="../../images/arias/che-gelida-manina.jpg" />
+                    <div class='caption'>
+                      <h5>Che gelida manina</h5>
+                    </div>
+                  </div>
+                  </a>
+          
+                </li>
+                <li>
+                          <a href="mi-chiamano-mimi/"><div class='panel radius'>
+                    <img src="../../images/arias/mi-chiamano-mimi.jpg" />
+                    <div class='caption'>
+                      <h5>Mi chiamano Mimi</h5>
+                    </div>
+                  </div>
+                  </a>
+          
+                </li>
+                <li>
+                          <a href="quando-me-n-vo/"><div class='panel radius'>
+                    <img src="../../images/arias/quando-me-n-vo.jpg" />
+                    <div class='caption'>
+                      <h5>Quando me'n vo'</h5>
+                    </div>
+                  </div>
+                  </a>
+          
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <footer>
+        <nav>
+          <div class='row'>
+            <div class='column medium-4'>
+              <h4>Composers</h4>
+              <ul class='no-bullet'>
+                <li><a href="../../georges-bizet/">Georges Bizet</a></li>
+                <li><a href="../../pietro-mascagni/">Pietro Mascagni</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/">Wolfgang Amadeus Mozart</a></li>
+                <li><a href="../">Giacomo Puccini</a></li>
+                <li><a href="../../gioachino-rossini/">Gioachino Rossini</a></li>
+                <li><a href="../../giuseppe-verdi/">Giuseppe Verdi</a></li>
+                <li><a href="../../richard-wagner/">Richard Wagner</a></li>
+              </ul>
+              <div class='show-for-small'>
+                <hr>
+              </div>
+            </div>
+            <div class='column medium-4'>
+              <h4>Operas</h4>
+              <ul class='no-bullet'>
+                <li><a href="../../giuseppe-verdi/aida/">Aida</a></li>
+                <li><a href="../../gioachino-rossini/the-barber-of-seville/">The Barber of Seville</a></li>
+                <li><a href="./">La Bohème</a></li>
+                <li><a href="../../pietro-mascagni/cavalleria-rusticana/">Cavalleria Rusticana</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/don-giovanni/">Don Giovanni</a></li>
+                <li><a href="../madama-butterfly/">Madama Butterfly</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/">The Magic Flute</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/">The Marriage of Figaro</a></li>
+                <li><a href="../../giuseppe-verdi/nabucco/">Nabucco</a></li>
+                <li><a href="../../giuseppe-verdi/rigoletto/">Rigoletto</a></li>
+                <li><a href="../tosca/">Tosca</a></li>
+                <li><a href="../../giuseppe-verdi/la-traviata/">La Traviata</a></li>
+                <li><a href="../turandot/">Turandot</a></li>
+              </ul>
+              <div class='show-for-small'>
+                <hr>
+              </div>
+            </div>
+            <div class='column medium-4'>
+              <h4>Arias</h4>
+              <ul class='no-bullet'>
+                <li><a href="../madama-butterfly/un-bel-di-vedremo/">Un bel dì vedremo</a></li>
+                <li><a href="che-gelida-manina/">Che gelida manina</a></li>
+                <li><a href="../../giuseppe-verdi/rigoletto/la-donna-e-mobile/">La donna e mobile</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/der-holle-rache-kocht-in-meinem-herzen/">Der Hölle Rache kocht in meinem Herzen</a></li>
+                <li><a href="../../gioachino-rossini/the-barber-of-seville/largo-al-factotum/">Largo al factotum</a></li>
+                <li><a href="../../giuseppe-verdi/la-traviata/libiamo-ne-lieti-calici/">Libiamo ne' lieti calici</a></li>
+                <li><a href="mi-chiamano-mimi/">Mi chiamano Mimi</a></li>
+                <li><a href="../turandot/nessun-dorma/">Nessun Dorma</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/non-pui-andrai/">Non pui andrai</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/porgi-amor/">Porgi amor</a></li>
+                <li><a href="quando-me-n-vo/">Quando me'n vo'</a></li>
+                <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/die-vogelfanger-bin-ich-ja/">Die vogelfanger bin ich ja</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </footer>
     </div>
-    <article>
-      <section class='row'>
-        <div class='columns'>
-          <h1>
-            La Bohème
-          </h1>
-          <h2 class='subheader'>
-            By
-            <a href="../">Giacomo Puccini</a>
-          </h2>
-          <hr>
-        </div>
-      </section>
-      <section class='row'>
-        <div class='large-8 large-push-3 medium-8 medium-push-4 columns'>
-          <p>La bohème is an opera in four acts,[N 1] composed by Giacomo Puccini to an Italian libretto by Luigi Illica and Giuseppe Giacosa, based on Scènes de la vie de bohème by Henri Murger. [1] The world premiere performance of La bohème was in Turin on 1 February 1896 at the Teatro Regio,[2] conducted by the young Arturo Toscanini. Since then, La bohème has become part of the standard Italian opera repertory and is one of the most frequently performed operas worldwide.[3] In 1946, fifty years after the opera's premiere, Toscanini conducted a performance of it on radio with the NBC Symphony Orchestra. This performance was eventually released on records and on Compact Disc. It is the only recording of a Puccini opera by its original conductor (see Recordings below).</p>
-        </div>
-        <div class='large-3 large-pull-9 medium-4 medium-pull-8 columns illustration'><img src="../../images/operas/la-boheme.jpg" /></div>
-      </section>
-      <section class='row'>
-        <div class='column'>
-        </div>
-      </section>
-    </article>
-    <aside class='callouts'>
-      <div class='row'>
-        <div class='columns'>
-          <h3>Arias in La Bohème</h3>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='columns'>
-          <ul class='small-block-grid-2 large-block-grid-4'>
-            <li>
-                      <a href="che-gelida-manina/"><div class='panel radius'>
-                <img src="../../images/arias/che-gelida-manina.jpg" />
-                <h5 class='subheader text-center'>Che gelida manina</h5>
-              </div>
-              </a>
-      
-            </li>
-            <li>
-                      <a href="mi-chiamano-mimi/"><div class='panel radius'>
-                <img src="../../images/arias/mi-chiamano-mimi.jpg" />
-                <h5 class='subheader text-center'>Mi chiamano Mimi</h5>
-              </div>
-              </a>
-      
-            </li>
-            <li>
-                      <a href="quando-me-n-vo/"><div class='panel radius'>
-                <img src="../../images/arias/quando-me-n-vo.jpg" />
-                <h5 class='subheader text-center'>Quando me'n vo'</h5>
-              </div>
-              </a>
-      
-            </li>
-          </ul>
-        </div>
-      </div>
-    </aside>
   </div>
-  <footer>
-    <nav>
-      <div class='row'>
-        <div class='column medium-4'>
-          <h4>Composers</h4>
-          <ul class='no-bullet'>
-            <li><a href="../../georges-bizet/">Georges Bizet</a></li>
-            <li><a href="../../pietro-mascagni/">Pietro Mascagni</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/">Wolfgang Amadeus Mozart</a></li>
-            <li><a href="../">Giacomo Puccini</a></li>
-            <li><a href="../../gioachino-rossini/">Gioachino Rossini</a></li>
-            <li><a href="../../giuseppe-verdi/">Giuseppe Verdi</a></li>
-            <li><a href="../../richard-wagner/">Richard Wagner</a></li>
-          </ul>
-          <div class='show-for-small'>
-            <hr>
-          </div>
-        </div>
-        <div class='column medium-4'>
-          <h4>Operas</h4>
-          <ul class='no-bullet'>
-            <li><a href="../../giuseppe-verdi/aida/">Aida</a></li>
-            <li><a href="../../gioachino-rossini/the-barber-of-seville/">The Barber of Seville</a></li>
-            <li><a href="./">La Bohème</a></li>
-            <li><a href="../../pietro-mascagni/cavalleria-rusticana/">Cavalleria Rusticana</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/don-giovanni/">Don Giovanni</a></li>
-            <li><a href="../madama-butterfly/">Madama Butterfly</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/">The Magic Flute</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/">The Marriage of Figaro</a></li>
-            <li><a href="../../giuseppe-verdi/nabucco/">Nabucco</a></li>
-            <li><a href="../../giuseppe-verdi/rigoletto/">Rigoletto</a></li>
-            <li><a href="../tosca/">Tosca</a></li>
-            <li><a href="../../giuseppe-verdi/la-traviata/">La Traviata</a></li>
-            <li><a href="../turandot/">Turandot</a></li>
-          </ul>
-          <div class='show-for-small'>
-            <hr>
-          </div>
-        </div>
-        <div class='column medium-4'>
-          <h4>Arias</h4>
-          <ul class='no-bullet'>
-            <li><a href="../madama-butterfly/un-bel-di-vedremo/">Un bel dì vedremo</a></li>
-            <li><a href="che-gelida-manina/">Che gelida manina</a></li>
-            <li><a href="../../giuseppe-verdi/rigoletto/la-donna-e-mobile/">La donna e mobile</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/der-holle-rache-kocht-in-meinem-herzen/">Der Hölle Rache kocht in meinem Herzen</a></li>
-            <li><a href="../../gioachino-rossini/the-barber-of-seville/largo-al-factotum/">Largo al factotum</a></li>
-            <li><a href="../../giuseppe-verdi/la-traviata/libiamo-ne-lieti-calici/">Libiamo ne' lieti calici</a></li>
-            <li><a href="mi-chiamano-mimi/">Mi chiamano Mimi</a></li>
-            <li><a href="../turandot/nessun-dorma/">Nessun Dorma</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/non-pui-andrai/">Non pui andrai</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/the-marriage-of-figaro/porgi-amor/">Porgi amor</a></li>
-            <li><a href="quando-me-n-vo/">Quando me'n vo'</a></li>
-            <li><a href="../../wolfgang-amadeus-mozart/the-magic-flute/die-vogelfanger-bin-ich-ja/">Die vogelfanger bin ich ja</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </footer>
   <script src="//code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
   <script>
     window.jQuery || document.write('<script src="/javascripts/vendor/jquery-2.0.3.min.js"><\/script>')
