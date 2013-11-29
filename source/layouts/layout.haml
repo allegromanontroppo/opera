@@ -17,66 +17,94 @@
   = javascript_include_tag "vendor/custom.modernizr"
 
 %body
-  .contain-to-grid
-    %nav.top-bar
-      %ul.title-area
-        / Title Area
-        %li.name
-          %h1= link_to 'Access All Arias', '/index.html'
-        %li.toggle-topbar.menu-icon
-          %a{:href => "#"}
-            %span menu
+  .off-canvas-wrap
+    .inner-wrap
+      %a.exit-off-canvas
+      %aside.left-off-canvas-menu
+        %ul.off-canvas-list
+          %li
+            %label Composers
+          - composers.each do |composer|
+            %li= link_to_composer(composer)
+        %ul.off-canvas-list
+          %li
+            %label Operas
+          - operas.each do |opera|
+            %li= link_to_opera(opera)
+        %ul.off-canvas-list
+          %li
+            %label Arias
+          - arias.each do |aria|
+            %li= link_to_aria(aria)
+        
+      %nav.tab-bar.show-for-small
+        %section.left-small
+          %a.left-off-canvas-toggle.menu-icon
+            %span
+        %section.right.tab-bar-section
+          %h1 Access All Arias
+
+      .main-section
+        .contain-to-grid.hide-for-small
+          %nav.top-bar{ 'data-topbar' => '' }
+            %ul.title-area
+              / Title Area
+              %li.name
+                %h1= link_to 'Access All Arias', '/index.html'
+              %li.toggle-topbar.menu-icon
+                %a{:href => "#"}
+                  %span menu
             
-      %section.top-bar-section
-        / Right Nav Section
-        %ul.right
-          %li.divider
-          %li.has-dropdown
-            %a{:href => '#' } Composers
-            %ul.dropdown
-              - composers.each do |composer|
-                %li= link_to_composer(composer)
-          %li.divider
-          %li.has-dropdown
-            %a{:href => "#"} Operas
-            %ul.dropdown
-              - operas.each do |opera|
-                %li= link_to_opera(opera)
-          %li.divider
-          %li.has-dropdown
-            %a{:href => "#"} Arias
-            %ul.dropdown
-              - arias.each do |aria|
-                %li= link_to_aria(aria)
+            %section.top-bar-section
+              / Right Nav Section
+              %ul.right
+                %li.divider
+                %li.has-dropdown
+                  %a{:href => '#' } Composers
+                  %ul.dropdown
+                    - composers.each do |composer|
+                      %li= link_to_composer(composer)
+                %li.divider
+                %li.has-dropdown
+                  %a{:href => "#"} Operas
+                  %ul.dropdown
+                    - operas.each do |opera|
+                      %li= link_to_opera(opera)
+                %li.divider
+                %li.has-dropdown
+                  %a{:href => "#"} Arias
+                  %ul.dropdown
+                    - arias.each do |aria|
+                      %li= link_to_aria(aria)
 
-  .main= yield
+      .main= yield
     
-  %footer
-    %nav
-      .row
-        .column.medium-4
-          %h4 Composers
-          %ul.no-bullet
-            - composers.each do |composer|
-              %li= link_to_composer(composer)
+      %footer
+        %nav
+          .row
+            .column.medium-4
+              %h4 Composers
+              %ul.no-bullet
+                - composers.each do |composer|
+                  %li= link_to_composer(composer)
               
-          .show-for-small
-            %hr
+              .show-for-small
+                %hr
 
-        .column.medium-4
-          %h4 Operas
-          %ul.no-bullet
-            - operas.each do |opera|
-              %li= link_to_opera(opera)  
+            .column.medium-4
+              %h4 Operas
+              %ul.no-bullet
+                - operas.each do |opera|
+                  %li= link_to_opera(opera)  
               
-          .show-for-small
-            %hr  
+              .show-for-small
+                %hr  
 
-        .column.medium-4
-          %h4 Arias
-          %ul.no-bullet
-            - arias.each do |aria|
-              %li= link_to_aria(aria)
+            .column.medium-4
+              %h4 Arias
+              %ul.no-bullet
+                - arias.each do |aria|
+                  %li= link_to_aria(aria)
 
 
   = javascript_include_tag '//code.jquery.com/jquery-2.0.3.min.js'          

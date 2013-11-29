@@ -6,4 +6,5 @@
           = link_to build_path(*path_components, item) do
             .panel.radius
               = image_tag item.image_src
-              %h5.subheader.text-center= item.name
+              .caption
+                %h5= item.name

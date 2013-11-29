@@ -526,6 +526,7 @@ $primary-color: $turandot_brown;
 // Off-canvas
 
 // $tabbar-bg: #333;
+$tabbar-bg: $turandot_brown;
 // $tabbar-height: rem-calc(45);
 // $tabbar-line-height: $tabbar-height;
 // $tabbar-color: #FFF;
@@ -1043,6 +1044,7 @@ $topbar-dropdown-link-bg: lighten($topbar-bg-color, 3%);
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
 // $topbar-link-weight: normal;
+$topbar-link-weight: 600;
 // $topbar-link-font-size: rem-calc(13);
 $topbar-link-font-size: rem-calc(12);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
@@ -1091,6 +1093,7 @@ $topbar-link-font-family: $sans-font-family;
 
 // $include-html-type-classes: $include-html-classes;
 // $include-open-sans: true;
+$include-open-sans: false;
 
 // We use these to control header font styles
 // $header-font-family: join("Open Sans", $body-font-family);
