@@ -13,7 +13,7 @@
 }
   
 .breadcrumbs{
-  @include vertically-margined(25px, 10px);
+  @include vertically-margined(25px, 0);
 }
 
 .home{
@@ -80,7 +80,7 @@
   }
 
   .caption{
-    bottom: 0.1em;
+    bottom: 0.2em;
     left: 0.1em;
     right: 0.1em;
   }
