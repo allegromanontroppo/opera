@@ -39,17 +39,10 @@ module LinkHelpers
   
   def render_callouts(*args)
     
-    rows = ''
-    
     path_components = args[0..-2]
     items = args[-1]
     
-    while items.any?
-      rows << partial('partials/callout_row', :locals => { :items => items[0...4], :path_components => path_components })
-      items.slice!(0, 4)
-    end
-    
-    rows
+    partial('partials/callouts', :locals => { :items => items, :path_components => path_components })
     
   end
   

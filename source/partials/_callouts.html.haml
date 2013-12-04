@@ -1,6 +1,6 @@
 .row
-  .columns
-    %ul.small-block-grid-2.large-block-grid-4
+  .column
+    %ul.small-block-grid-2.medium-block-grid-4.large-block-grid-5
       - items.each do |item|
         %li 
           = link_to build_path(*path_components, item) do

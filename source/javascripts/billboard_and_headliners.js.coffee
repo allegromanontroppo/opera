@@ -22,11 +22,6 @@ $ ->
       source = $('#callout-template').html()
       template = Handlebars.compile(source)
       
-      rowed_headliners = []
-      
       headliners = window.headliners.shuffle()[0...8][..]
-      while headliners.length
-        rowed_headliners.push headliners[0...4]
-        headliners = headliners[4..]
 
-      $headliners.html template(rowed_headliners)
+      $headliners.html template(headliners)

@@ -20,10 +20,9 @@
         {{/if}}
 
   %script#callout-template{type: "text/x-handlebars-template"}
-    {{#each this}}
     .row
       .columns
-        %ul.small-block-grid-2.medium-block-grid-4
+        %ul.small-block-grid-2.medium-block-grid-4.large-block-grid-5
           {{#each this}}
           %li
             <a href="{{ url }}" class="panel radius">
@@ -32,7 +31,6 @@
               %h5 {{ name }}
             </a>
           {{/each}}
-    {{/each}}
     
     
   :javascript
