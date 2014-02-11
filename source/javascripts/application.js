@@ -24,7 +24,6 @@
 // require foundation/foundation.tooltip
 //= require foundation/foundation.topbar
 
-//= require billboard_and_headliners
 
 $(document).foundation();
  

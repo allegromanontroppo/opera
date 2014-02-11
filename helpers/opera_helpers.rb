@@ -72,14 +72,14 @@ module OperaHelpers
     
   end
   
-  def headliners_json
+  def headliners
     
     headliners = []
     hash_builder = lambda{ |*args|
       {
-        :name => args.last.name, 
-        :url => url_for(build_path(*args)), 
-        :image_src => args.last.image_src[1..-1]
+        :name      => args.last.name, 
+        :url       => build_path(*args), 
+        :image_src => args.last.image_src #[1..-1]
       }
     }
     
@@ -98,7 +98,7 @@ module OperaHelpers
       headliners << hash_builder.call(composer, opera, aria)
     end
     
-    headliners.to_json
+    headliners
     
   end
   

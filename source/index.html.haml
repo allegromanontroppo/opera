@@ -1,39 +1,31 @@
-.home
+.home{ 'ng-app' => '' }
 
   %section.row
     .columns
       %h1 Access all Arias
       %h2.subheader Exploring the finest tunes in opera
       
-  %section#billboard
-  %aside#headliners.callouts
-          
-- content_for :javascripts do
-    
-  %script#billboard-template{type: "text/x-handlebars-template"}
+  %section{ 'ng-controller' => "BillboardCtrl" }
     .row
-      .columns
-        <img src="images/billboards/{{ image_src }}">
-        {{#if caption}} 
+      .column
+        %img{ 'ng-src' => "/images/billboards/{{ billboard.image_src }}" }
         .caption
-          %h4 {{ caption }}
-        {{/if}}
-
-  %script#callout-template{type: "text/x-handlebars-template"}
+          %h4 {{ billboard.caption  }}
+          
+  %aside.callouts#headliners{ 'ng-controller' => "HeadlinersCtrl" }
     .row
       .columns
         %ul.small-block-grid-2.medium-block-grid-4.large-block-grid-5
-          {{#each this}}
-          %li
-            <a href="{{ url }}" class="panel radius">
-            <img src="{{ image_src }}">
-            .caption
-              %h5 {{ name }}
-            </a>
-          {{/each}}
+          %li{ 'ng-repeat' => 'headliner in headliners' }
+            %a.panel.radius{ 'ng-href' => "{{ headliner.url }}" }
+              %img{ 'ng-src' => "{{ headliner.image_src }}" }
+              .caption
+                %h5 {{ headliner.name }}
+          
+- content_for :javascripts do
+    
+  = javascript_include_tag '//ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js'
+  = javascript_include_tag 'billboard_and_headliners'
     
     
-  :javascript
-    billboards = #{ data.billboards.to_json };
-    headliners = #{ headliners_json };
         

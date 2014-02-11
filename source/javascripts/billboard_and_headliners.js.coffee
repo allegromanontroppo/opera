@@ -1,27 +1,21 @@
 
-//= require handlebars
-
 do -> Array::shuffle ?= ->
   for i in [@length-1..1]
     j = Math.floor Math.random() * (i + 1)
     [@[i], @[j]] = [@[j], @[i]]
   @
 
-$ ->
-
-  if ($billboard = $('#billboard')).length
-    do ->
-      source = $('#billboard-template').html()
-      template = Handlebars.compile(source)
-    
-      billboard = window.billboards[Math.floor(Math.random() * window.billboards.length)]
-      $billboard.html template(billboard)
+window.BillboardCtrl = ($scope, $http) ->
   
-  if ($headliners = $('#headliners')).length
-    do ->
-      source = $('#callout-template').html()
-      template = Handlebars.compile(source)
-      
-      headliners = window.headliners.shuffle()[0...8][..]
-
-      $headliners.html template(headliners)
+  $scope.billboard = null
+  
+  $http.get('/data/billboards.json').success (data) ->
+    $scope.billboard = data.shuffle()[0]
+  
+window.HeadlinersCtrl = ($scope, $http) ->
+  
+  $scope.headliners = []
+  
+  $http.get('/data/headliners.json').success (data) ->
+    $scope.headliners = data.shuffle()[0...10][..]
+  
