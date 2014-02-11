@@ -147,14 +147,14 @@
         </div>
       </div>
       <div class='main'>
-        <div class='home' ng-app=''>
+        <div class='home' ng-app='app'>
           <section class='row'>
             <div class='columns'>
               <h1>Access all Arias</h1>
               <h2 class='subheader'>Exploring the finest tunes in opera</h2>
             </div>
           </section>
-          <section ng-controller='BillboardCtrl'>
+          <section ng-cloak ng-controller='BillboardCtrl'>
             <div class='row'>
               <div class='column'>
                 <img ng-src='/images/billboards/{{ billboard.image_src }}'>
@@ -164,7 +164,7 @@
               </div>
             </div>
           </section>
-          <aside class='callouts' id='headliners' ng-controller='HeadlinersCtrl'>
+          <aside class='callouts' id='headliners' ng-cloak ng-controller='HeadlinersCtrl'>
             <div class='row'>
               <div class='columns'>
                 <ul class='small-block-grid-2 medium-block-grid-4 large-block-grid-5'>
