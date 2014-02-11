@@ -11,7 +11,7 @@ app.controller('BillboardCtrl', ['$scope', '$http', ($scope, $http) ->
   
   $scope.billboard = null
   
-  $http.get('/data/billboards.json').success (data) ->
+  $http.get('data/billboards.json').success (data) ->
     $scope.billboard = data.shuffle()[0]
     
 ])
@@ -20,7 +20,7 @@ app.controller('HeadlinersCtrl', ['$scope', '$http', ($scope, $http) ->
   
   $scope.headliners = []
   
-  $http.get('/data/headliners.json').success (data) ->
+  $http.get('data/headliners.json').success (data) ->
     $scope.headliners = data.shuffle()[0...10][..]
     
 ])
