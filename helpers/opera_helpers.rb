@@ -79,7 +79,7 @@ module OperaHelpers
       {
         :name      => args.last.name, 
         :url       => build_path(*args), 
-        :image_src => args.last.image_src #[1..-1]
+        :image_src => args.last.image_src[1..-1]
       }
     }
     
