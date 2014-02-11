@@ -5,17 +5,22 @@ do -> Array::shuffle ?= ->
     [@[i], @[j]] = [@[j], @[i]]
   @
 
-window.BillboardCtrl = ($scope, $http) ->
+window.app = app = angular.module('app', [])
+
+app.controller('BillboardCtrl', ['$scope', '$http', ($scope, $http) ->
   
   $scope.billboard = null
   
   $http.get('/data/billboards.json').success (data) ->
     $scope.billboard = data.shuffle()[0]
+    
+])
   
-window.HeadlinersCtrl = ($scope, $http) ->
+app.controller('HeadlinersCtrl', ['$scope', '$http', ($scope, $http) ->
   
   $scope.headliners = []
   
   $http.get('/data/headliners.json').success (data) ->
     $scope.headliners = data.shuffle()[0...10][..]
-  
+    
+])

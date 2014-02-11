@@ -1,18 +1,18 @@
-.home{ 'ng-app' => '' }
+.home{ 'ng-app' => 'app' }
 
   %section.row
     .columns
       %h1 Access all Arias
       %h2.subheader Exploring the finest tunes in opera
       
-  %section{ 'ng-controller' => "BillboardCtrl" }
+  %section{ 'ng-controller' => "BillboardCtrl", 'ng-cloak' => true }
     .row
       .column
         %img{ 'ng-src' => "/images/billboards/{{ billboard.image_src }}" }
         .caption
           %h4 {{ billboard.caption  }}
           
-  %aside.callouts#headliners{ 'ng-controller' => "HeadlinersCtrl" }
+  %aside.callouts#headliners{ 'ng-controller' => "HeadlinersCtrl", 'ng-cloak' => true }
     .row
       .columns
         %ul.small-block-grid-2.medium-block-grid-4.large-block-grid-5
