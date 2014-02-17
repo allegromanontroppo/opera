@@ -89,8 +89,8 @@
     
     [Source](http://en.wikipedia.org/wiki/Nessun_dorma)
   videos:
-    - //www.youtube.com/embed/bUbA5y1hnFg?rel=0
-    - //www.youtube.com/embed/TOfC9LfR3PI?rel=0
+    - //www.youtube.com/embed/bUbA5y1hnFg
+    - //www.youtube.com/embed/TOfC9LfR3PI
   libretto: |
     Nessun dorma! 
     Nessun dorma!
@@ -145,7 +145,7 @@
   
   
     [Source](http://en.wikipedia.org/wiki/Non_più_andrai)
-  videos: //www.youtube.com/embed/e1-FKyOTvto?rel=0
+  videos: //www.youtube.com/embed/e1-FKyOTvto
   libretto: |
     Non più andrai, farfallone amoroso,
     notte e giorno d'intorno girando;
@@ -209,7 +209,7 @@
   opera_name: The Marriage of Figaro
   sort_key: porgi amour
   videos:
-    - //www.youtube.com/embed/PPbMDLo7JFY?rel=0
+    - //www.youtube.com/embed/PPbMDLo7JFY
   synopsis:
   libretto: |
     Porgi, amor, qualche ristoro
@@ -229,7 +229,7 @@
   sort_key: vogelfänger bin ich ja
   synopsis:
   videos:
-    - //www.youtube.com/embed/5-Qq-DeEXhw?rel=0
+    - //www.youtube.com/embed/5-Qq-DeEXhw
   libretto: |
     Der Vogelfänger bin ich ja
     Stets lustig heissa hopsasa!
@@ -325,7 +325,7 @@
     Sarastro becomes pale! (as death)
     Hear, Gods of Revenge,
     Hear a mother's oath!
-  videos: //www.youtube.com/embed/uSdPrX8IZio?rel=0
+  videos: //www.youtube.com/embed/uSdPrX8IZio
 
 -
   name: La donna e mobile
@@ -337,7 +337,7 @@
     The canzone is famous as a showcase for tenors. Raffaele Mirate's performance of the bravura aria at the opera's 1851 premiere was hailed as the highlight of the evening. Before its first public performance (in Venice), it was rehearsed under tight secrecy:[1] a necessary precaution, because it proved to be catchy and soon after its first public performance every gondolier in Venice was singing it.
   
     [Source](http://en.wikipedia.org/wiki/La_donna_è_mobile)
-  videos: //www.youtube.com/embed/G_pn13q_tvA?rel=0
+  videos: //www.youtube.com/embed/G_pn13q_tvA
   libretto: |
     La donna è mobile
     Qual piuma al vento,
@@ -370,7 +370,7 @@
   name: Largo al factotum
   opera_name: The Barber of Seville
   sort_key: largo al factotum
-  videos: //www.youtube.com/embed/7qHZkkgowdY?rel=0
+  videos: //www.youtube.com/embed/7qHZkkgowdY
   synopsis: |
     "Largo al factotum" (Make way for the factotum) is an aria from The Barber of Seville by Gioachino Rossini, sung at the first entrance of the title character; the repeated "Figaro"s before the final patter section are an icon in popular culture of operatic singing. The term "factotum" refers to a general servant and comes from the Latin where it literally means "do everything."
   
@@ -471,8 +471,8 @@
   opera_name: La Traviata
   sort_key: libiamo ne' lieti calici
   videos: 
-    - //www.youtube.com/embed/SmHgg8xo13Y?rel=0
-    - //www.youtube.com/embed/5rsciRaJVtE?rel=0
+    - //www.youtube.com/embed/SmHgg8xo13Y
+    - //www.youtube.com/embed/5rsciRaJVtE
   synopsis: |
     "Libiamo ne' lieti calici" (Italian pronunciation: [liˈbjamo nɛ ˈljɛti ˈkalitʃi]; "Let's drink from the joyful cup") is a famous duet with chorus from Verdi's La traviata, one of the best-known opera melodies and a popular performance choice (as is this opera itself) for many great tenors. The song is a brindisi, a lively song that encourages the drinking of wine or other alcoholic beverages. Those who have performed it include Luciano Pavarotti, Giuseppe Di Stefano, Maria Callas, Teresa Stratas, Nino Machaidze, Plácido Domingo, Raimo Sirkiä, José Carreras, Enrico Caruso, Andrea Bocelli, Mario Frangoulis, Angela Gheorghiu, Violetta Villas, Anna Netrebko, and Tarja Turunen. The words were written by Francesco Maria Piave.
     
@@ -584,7 +584,7 @@
   name: Che gelida manina
   opera_name: La Bohème
   sort_key: che gelida manina
-  videos: //www.youtube.com/embed/rpxXlhTP8os?rel=0
+  videos: //www.youtube.com/embed/rpxXlhTP8os
   libretto: |
     Che gelida manina,
     se la lasci riscaldar.
@@ -659,7 +659,7 @@
 - 
   name: Mi chiamano Mimi
   opera_name: La Bohème
-  videos: //www.youtube.com/embed/Bm29-POmIg8?rel=0
+  videos: //www.youtube.com/embed/Bm29-POmIg8
   sort_key: mi chiamano Mimi
   libretto: |
     Sì. Mi chiamano Mimì,
@@ -733,7 +733,7 @@
 -
   name: Quando me'n vo'
   opera_name: La Bohème
-  videos: //www.youtube.com/embed/jFf4lg2pMWI?rel=0
+  videos: //www.youtube.com/embed/jFf4lg2pMWI
   sort_key: quando me'n vo
   libretto: |
     Quando me'n vo'

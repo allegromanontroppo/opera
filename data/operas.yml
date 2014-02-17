@@ -90,13 +90,13 @@
   
     [Source](http://en.wikipedia.org/wiki/Aida)
     
-  videos: "//www.youtube.com/embed/l3w4I-KElxQ?rel=0"
+  videos: "//www.youtube.com/embed/l3w4I-KElxQ"
   
 -
   name: Nabucco
   sort_key: nabucco
   composer_name: Giuseppe Verdi
-  videos: //www.youtube.com/embed/D6JN0l7A_mE?rel=0
+  videos: //www.youtube.com/embed/D6JN0l7A_mE
   synopsis: |
     Nabucco (short for Nabucodonosor, English Nebuchadnezzar) is an Italian-language opera in four acts composed in 1841 by Giuseppe Verdi to an Italian libretto by Temistocle Solera. The libretto is based on the Biblical story and the 1836 play by Auguste Anicet-Bourgeois and Francis Cornue, although Antonio Cortese's ballet adaptation of the play (with its necessary simplifications), given at La Scala in 1836, was a more important source for Solera than the play itself.[1] Under its original name of Nabucodonosor, the opera was first performed at La Scala in Milan on 9 March 1842.
 
@@ -110,8 +110,8 @@
   sort_key: traviata
   composer_name: Giuseppe Verdi
   videos :
-    - //www.youtube.com/embed/49UZa0TO2zQ?rel=0
-    - //www.youtube.com/embed/vTekeuLJwko?rel=0
+    - //www.youtube.com/embed/9WG-_qv8vHU
+    - //www.youtube.com/embed/49UZa0TO2zQ
   synopsis: |
     La traviata (Italian: [la traˈvjaːta], The Strayed Woman) is an opera in three acts by Giuseppe Verdi set to an Italian libretto by Francesco Maria Piave. It is based on La dame aux Camélias (1852), a play adapted from the novel by Alexandre Dumas, fils. The opera was originally entitled Violetta, after the main character. It was first performed on 6 March 1853 at the La Fenice opera house in Venice.
     
@@ -143,7 +143,7 @@
   name: Cavalleria Rusticana
   sort_key: cavalleria rusticana
   composer_name: Pietro Mascagni
-  videos: //www.youtube.com/embed/7OvsVSWB4TI?rel=0
+  videos: //www.youtube.com/embed/7OvsVSWB4TI
   synopsis: | 
     A Sicilian village, c. 1890. Early on Easter morning, Turiddu sings about his former beloved, Lola, now the wife of a wine carter, Alfio. As the town stirs, Santuzza, Turiddu's neglected sweetheart, comes looking for the handsome youth at the tavern of his mother, Lucia. The girl reveals she has been excommunicated, but before she can explain why, Alfio comes by with friends, boasting about his pretty young wife. A religious procession fills the square and enters the church for mass, leaving Santuzza to tell Mamma Lucia that Turiddu has taken up with Lola again. When the old woman has gone to mass, Santuzza confronts Turiddu with his betrayal. Lola passes by, and Turiddu follows her into church. Santuzza hurls a curse after him, then, consumed by jealousy, tells Alfio of Lola's infidelity. Santuzza immediately feels remorse, but the damage is done.
 
