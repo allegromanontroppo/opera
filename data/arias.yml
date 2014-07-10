@@ -328,7 +328,7 @@
   videos: //www.youtube.com/embed/uSdPrX8IZio
 
 -
-  name: La donna e mobile
+  name: La donna è mobile
   opera_name: Rigoletto
   sort_key: donna e mobile
   synopsis: |
@@ -342,12 +342,15 @@
     La donna è mobile
     Qual piuma al vento,
     Muta d'accento — e di pensiero.
+    
     Sempre un amabile,
     Leggiadro viso,
     In pianto o in riso, — è menzognero.
+    
     È sempre misero
     Chi a lei s'affida,
     Chi le confida — mal cauto il cuore!
+    
     Pur mai non sentesi
     Felice appieno
     Chi su quel seno — non liba amore!
@@ -355,12 +358,15 @@
     Woman is flighty
     Like a feather in the wind,
     She changes her voice — and her mind.
+    
     Always sweet,
     Pretty face,
     In tears or in laughter, — she is always lying.
+    
     Always miserable
     Is he who trusts her,
     He who confides in her — his unwary heart!
+    
     Yet one never feels
     Fully happy
     Who on that bosom — does not drink love!

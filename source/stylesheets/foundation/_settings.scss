@@ -17,7 +17,7 @@
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
 // $base-font-size: 100%;
-$base-font-size: 18px;
+$base-font-size: 17px;
 
 // The $base-line-height is 100% while $base-font-size is 150%
 // $base-line-height: 150%;
@@ -32,6 +32,7 @@ $base-font-size: 18px;
 // $include-html-grid-classes: $include-html-classes;
 
 // $row-width: rem-calc(1000);
+$row-width: rem-calc(1100);
 // $column-gutter: rem-calc(30);
 // $total-columns: 12;
 
@@ -39,7 +40,7 @@ $base-font-size: 18px;
 // $body-bg: #fff;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$body-font-family: $serif-font-family;
+$body-font-family: $sans-font-family;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 

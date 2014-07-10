@@ -1,7 +1,7 @@
 module LinkHelpers
   
   def build_path(*args)
-    [*args].map{ |a| a.name.parameterize }.unshift('').join('/') + '.html'
+    parts = [*args].map{ |a| a.name.parameterize }.unshift('').join('/') + '.html'
   end
 
   def link_to_composer(composer, &block)
