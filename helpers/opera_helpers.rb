@@ -78,7 +78,7 @@ module OperaHelpers
     hash_builder = lambda{ |*args|
       {
         :name      => args.last.name, 
-        :url       => build_path(*args)[1..-1], 
+        :url       => build_path(*args)[1..-6], 
         :image_src => args.last.image_src[1..-1]
       }
     }
